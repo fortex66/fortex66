@@ -2,7 +2,7 @@
     <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&text=Frozen의%20Github입니다!!&animation=fadeIn&fontColor=ffffff&fontSize=50" />
     </div>
     <div style="text-align: left;"> 
-    <h2 style="border-bottom: 1px solid #21262d; color: #c9d1d9;"> 안녕하세요 풀스택 개발자 Frozen입니다!!! </h2>  
+    <h2 style="border-bottom: 1px solid #21262d; color: #c9d1d9;"> 안녕하세요 임베디드 개발자 Frozen입니다!!! </h2>  
     <div style="font-weight: 700; font-size: 15px; text-align: left; color: #c9d1d9;">  </div> 
     </div>
     <div style="text-align: left;">
@@ -29,11 +29,6 @@
         <div style="margin-right: 10px;">
             <a href="https://fortex66.tistory.com/"> 
                 <img src="https://img.shields.io/badge/Tistory-000000?style=for-the-badge&logo=Tistory&logoColor=white&link=https://fortex66.tistory.com/"> 
-            </a>
-        </div>
-        <div>
-            <a href="https://hits.seeyoufarm.com">
-                <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ffortex66&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/>
             </a>
         </div>
     </div>
