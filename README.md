@@ -35,7 +35,7 @@
     </div>
     <div style="text-align: left;"> 
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🏅 Stats </h2> <div style="text-align: left;"> 
-        [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=fortex66)](https://solved.ac/fortex66)<br/>
+        [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=fortex66)](https://solved.ac/fortex66/)
         <a href="https://github.com/anuraghazra/github-readme-stats">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fortex66&layout=donut&show_icons=true&theme=material-palenight&hide_border=true&bg_color=20232a&icon_color=58A6FF&text_color=fff&title_color=58A6FF&count_private=true" width=38% />
 </a>    
