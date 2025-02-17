@@ -1,7 +1,7 @@
 <div align="center">
   
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&text=Frozen의%20Github입니다&animation=fadeIn&fontColor=ffffff&fontSize=50)
-## 안녕하세요 임베디드 개발자 Frozen입니다!
+## 안녕하세요 풀스택 개발자 Frozen입니다!
 
 </div>
 
@@ -11,8 +11,8 @@
 - **Programming Languages**  
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white">
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
 
 - **Frameworks & Libraries**  
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white">
