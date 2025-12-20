@@ -1,7 +1,7 @@
 <div align="center">
   
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&text=Frozen의%20Github입니다&animation=fadeIn&fontColor=ffffff&fontSize=50)
-## 안녕하세요 IOT 플랫폼 개발자 Frozen입니다!
+## 안녕하세요 IoT 플랫폼 개발자 Frozen입니다!
 
 </div>
 
