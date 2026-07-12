@@ -20,9 +20,7 @@
   <img src="https://img.shields.io/badge/Robotics-5B6DCD?style=flat-square" />
 </p>
 
-<a href="https://fortex66.github.io/">
-  <img src="https://img.shields.io/badge/Portfolio-181717?style=for-the-badge&logo=GitHub&logoColor=white" />
-</a>
+
 <a href="https://fortex66.tistory.com/">
   <img src="https://img.shields.io/badge/Tech_Blog-000000?style=for-the-badge&logo=Tistory&logoColor=white" />
 </a>
