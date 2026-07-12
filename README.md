@@ -222,15 +222,6 @@ Human-in-the-loop Decision Support
 
 <br/>
 
-## 💡 Engineering Perspective
-
-> **제조 현장의 맥락을 이해하지 못한 AI는 실제 설비 문제를 해결하기 어렵습니다.**
-
-새로운 기술을 사용하는 것보다, 기술이 현장의 문제를 안정적으로 해결할 수 있는지를 중요하게 생각합니다.
-
-AI를 설비와 작업자를 단순히 대체하는 기술이 아니라, 작업자와 엔지니어가 더 정확한 판단을 내릴 수 있도록 지원하는 기술로 활용하고자 합니다.
-
-<br/>
 
 ## 🏆 Achievement & Certification
 
@@ -249,24 +240,6 @@ AI를 설비와 작업자를 단순히 대체하는 기술이 아니라, 작업�
 
 <br/>
 
-## 🔗 Find Me Online
-
-<div align="center">
-
-<a href="https://fortex66.github.io/">
-  <img src="https://img.shields.io/badge/Portfolio-2C5364?style=for-the-badge&amp;logo=githubpages&amp;logoColor=white" alt="Portfolio" />
-</a>
-
-<a href="https://fortex66.tistory.com/">
-  <img src="https://img.shields.io/badge/Tech%20Blog-203A43?style=for-the-badge&amp;logo=tistory&amp;logoColor=white" alt="Tech Blog" />
-</a>
-
-<a href="mailto:fortex66@naver.com">
-  <img src="https://img.shields.io/badge/Email-3776AB?style=for-the-badge&amp;logo=maildotru&amp;logoColor=white" alt="Email" />
-</a>
-
-</div>
-
 ## 😎 Problem Solving
 
 <div align="center">
@@ -283,12 +256,6 @@ AI를 설비와 작업자를 단순히 대체하는 기술이 아니라, 작업�
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=fortex66&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&include_all_commits=true&count_private=true" height="170" alt="GitHub Stats" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fortex66&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8" height="170" alt="Top Languages" />
-
-<br/>
-
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=fortex66&theme=github-dark&bg_color=0D1117&hide_border=true&line=58A6FF&point=FFFFFF&color=C9D1D9" width="95%" alt="GitHub Activity Graph" />
 
 </div>
@@ -299,8 +266,6 @@ AI를 설비와 작업자를 단순히 대체하는 기술이 아니라, 작업�
 
 ### From Industrial Control to Manufacturing Intelligence
 
-현장의 설비와 공정을 이해하고,<br/>
-제어 기술과 AI를 연결하는 엔지니어가 되겠습니다.
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=120&section=footer" width="100%" />
 
