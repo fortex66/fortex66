@@ -1,12 +1,16 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=210&section=header&text=EONSANG%20SON&fontSize=48&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Manufacturing%20Software%20%26%20AI%20Engineer&descAlignY=61&descSize=18" width="100%" />
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&amp;color=0%3A0F2027%2C50%3A203A43%2C100%3A2C5364&amp;height=210&amp;section=header&amp;text=EONSANG%20SON&amp;fontSize=48&amp;fontColor=FFFFFF&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=Manufacturing%20Software%20and%20AI%20Engineer&amp;descAlignY=61&amp;descSize=18"
+    width="100%"
+    alt="Eonsang Son GitHub Header"
+  />
 
 <h3>Industrial Automation × Software × AI</h3>
 
 <p>
 제조 현장의 설비와 공정을 이해하고,<br/>
-제어 시스템과 AI를 연결하는 엔지니어입니다.
+제어 시스템과 AI를 연결하는 SW 엔지니어입니다.
 </p>
 
 <p>
@@ -32,7 +36,7 @@
 
 ## 👋 About Me
 
-자동차 부품 제조 분야에서 **생산기술과 제조 소프트웨어 업무**를 수행하고 있습니다.
+자동차 부품 제조 분야에서 **생산기술 제조 소프트웨어 개발 업무**를 수행하고 있습니다.
 
 PLC, LabVIEW, 산업용 로봇, 산업 통신 등 제조 현장의 제어 기술과 소프트웨어 개발 경험을 바탕으로 설비 제어, 공정 데이터 활용, 생산 시스템 고도화 업무를 수행하고 있습니다.
 
@@ -80,7 +84,7 @@ PLC, LabVIEW, 산업용 로봇, 산업 통신 등 제조 현장의 제어 기술
       <b>2018.03 — 2025.02</b>
     </td>
     <td>
-      <b>Yeungnam University</b>
+      <b>University</b>
     </td>
     <td>
       B.S. in Computer Science,<br/>
@@ -139,7 +143,7 @@ PLC, LabVIEW, 산업용 로봇, 산업 통신 등 제조 현장의 제어 기술
 | **Robot & Process Engineering**  | 프리미엄 신차종 자동화 공정의 로봇 프로그램, PLC 제어 및 공정 조건 검증과 양산 적용 지원                          |
 | **Global Manufacturing Support** | 해외 생산 현장의 자동화 공정 안정화, 기술 협업 및 양산 준비 지원                                         |
 | **Smart Factory Software**       | 웹 기술과 산업 통신을 활용한 설비 실시간 모니터링·제어 및 제조 데이터 관리 시스템 개발                             |
-| **Industrial Embedded System**   | Linux, Qt/QML, C++ 기반 산업용 컨트롤러와 PLC 통신 모듈 및 작업자용 HMI 개발                        |
+| **Industrial Embedded System**   | Linux, Qt/QML, C++ 기반 산업용 컨트롤러와 PLC 통신 모듈 및 작업자용 HMI 제품 개발                        |
 
 <br/>
 
@@ -247,38 +251,23 @@ AI를 설비와 작업자를 단순히 대체하는 기술이 아니라, 작업�
 
 <br/>
 
-## 🔗 Online Activity
+## 🔗 Find Me Online
 
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <a href="https://fortex66.github.io/">
-        <b>Portfolio</b>
-      </a>
-      <br/><br/>
-      주요 프로젝트와<br/>
-      개발 경험 소개
-    </td>
-    <td align="center" width="33%">
-      <a href="https://fortex66.tistory.com/">
-        <b>Tech Blog</b>
-      </a>
-      <br/><br/>
-      PLC 통신, 산업용 프로토콜,<br/>
-      LabVIEW·Python 연동 기록
-    </td>
-    <td align="center" width="33%">
-      <a href="https://github.com/fortex66">
-        <b>GitHub</b>
-      </a>
-      <br/><br/>
-      프로젝트 코드와<br/>
-      실험적 구현 기록
-    </td>
-  </tr>
-</table>
+<div align="center">
 
-<br/>
+<a href="https://fortex66.github.io/">
+  <img src="https://img.shields.io/badge/Portfolio-2C5364?style=for-the-badge&amp;logo=githubpages&amp;logoColor=white" alt="Portfolio" />
+</a>
+
+<a href="https://fortex66.tistory.com/">
+  <img src="https://img.shields.io/badge/Tech%20Blog-203A43?style=for-the-badge&amp;logo=tistory&amp;logoColor=white" alt="Tech Blog" />
+</a>
+
+<a href="mailto:fortex66@naver.com">
+  <img src="https://img.shields.io/badge/Email-3776AB?style=for-the-badge&amp;logo=maildotru&amp;logoColor=white" alt="Email" />
+</a>
+
+</div>
 
 ## 😎 Problem Solving
 
