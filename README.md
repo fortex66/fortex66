@@ -50,11 +50,12 @@ My current focus is on safely integrating AI into existing equipment control and
       <b>Jul. 2025 — Present</b>
     </td>
     <td width="32%">
-      <b>Automotive Manufacturing</b><br/>
-      Production Technology
+      <b>SL Corporation</b><br/>
+      Technology Research Center<br/>
+      Production Technology Center
     </td>
     <td width="50%">
-      Manufacturing Software & Automation Engineer<br/>
+      <b>Manufacturing Software & Automation Engineer</b><br/>
       Equipment control, process optimization, and industrial AI applications
     </td>
   </tr>
@@ -63,11 +64,11 @@ My current focus is on safely integrating AI into existing equipment control and
       <b>Oct. 2020 — Jun. 2023</b>
     </td>
     <td>
-      <b>Industrial Automation</b><br/>
-      Smart Factory
+      <b>Industrial Automation Company</b><br/>
+      Smart Factory & Industrial Software
     </td>
     <td>
-      Industrial Software Developer<br/>
+      <b>Industrial Software Developer</b><br/>
       Industrial controllers and real-time monitoring systems
     </td>
   </tr>
@@ -84,8 +85,6 @@ My current focus is on safely integrating AI into existing equipment control and
     </td>
   </tr>
 </table>
-
-<br/>
 
 ## 🚀 Selected Experience
 
