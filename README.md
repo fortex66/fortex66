@@ -2,52 +2,29 @@
 
 <h1>Hi, I'm Eonsang Son</h1>
 
-<img
-src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=850&lines=Manufacturing+OT+%C3%97+IT+Software+Engineer;Industrial+Automation+%C3%97+Software+%C3%97+AI;Connecting+Equipment%2C+Data%2C+and+Intelligence"
-alt="Typing SVG"
-/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=850&lines=Manufacturing+OT+%C3%97+IT+Software+Engineer;Industrial+Automation+%C3%97+Software+%C3%97+AI;Connecting+Equipment%2C+Data%2C+and+Intelligence" alt="Typing SVG" />
 
 <br/>
 
-<p>
-  I develop software that connects<br/>
-  <b>industrial equipment, control systems, manufacturing data, and AI.</b>
-</p>
+<p> I develop software that connects<br/> <b>industrial equipment, control systems, manufacturing data, and AI.</b> </p>
 
 <p>
-  <img
-    src="https://img.shields.io/badge/OT-PLC%20%7C%20Robot%20%7C%20Vision-203A43?style=for-the-badge"
-    alt="OT"
-  />
-  <img
-    src="https://img.shields.io/badge/IT-C%2B%2B%20%7C%20Python%20%7C%20C%23-2C5364?style=for-the-badge"
-    alt="IT"
-  />
-  <img
-    src="https://img.shields.io/badge/AI-LLM%20%7C%20RAG%20%7C%20Agent-3776AB?style=for-the-badge"
-    alt="AI"
-  />
+  <img src="https://img.shields.io/badge/OT-203A43?style=flat-square" />
+  <img src="https://img.shields.io/badge/IT-2C5364?style=flat-square" />
+  <img src="https://img.shields.io/badge/Industrial_AI-3776AB?style=flat-square" />
+  <img src="https://img.shields.io/badge/Robotics-5B6DCD?style=flat-square" />
 </p>
 
-<p>
-  <a href="https://fortex66.tistory.com/">
-    <img
-      src="https://img.shields.io/badge/Tech_Blog-Engineering_Notes-000000?style=flat-square&logo=tistory&logoColor=white"
-      alt="Tech Blog"
-    />
-  </a>
-  <a href="mailto:fortex66@naver.com">
-    <img
-      src="https://img.shields.io/badge/Email-Contact_Me-03C75A?style=flat-square&logo=naver&logoColor=white"
-      alt="Email"
-    />
-  </a>
-</p>
+<a href="https://fortex66.tistory.com/">
+  <img src="https://img.shields.io/badge/Tech_Blog-000000?style=for-the-badge&logo=Tistory&logoColor=white" />
+</a>
+<a href="mailto:fortex66@naver.com">
+  <img src="https://img.shields.io/badge/Email-03C75A?style=for-the-badge&logo=Naver&logoColor=white" />
+</a>
 
 </div>
 
 <br/>
-
 
 ## 👋 About Me
 
@@ -73,12 +50,11 @@ My current focus is on safely integrating AI into existing equipment control and
       <b>Jul. 2025 — Present</b>
     </td>
     <td width="32%">
-      <b>SL Corporation</b><br/>
-      Technology Research Center<br/>
-      Production Technology Center
+      <b>Automotive Manufacturing</b><br/>
+      Production Technology
     </td>
     <td width="50%">
-      <b>Manufacturing Software & Automation Engineer</b><br/>
+      Manufacturing Software & Automation Engineer<br/>
       Equipment control, process optimization, and industrial AI applications
     </td>
   </tr>
@@ -87,11 +63,11 @@ My current focus is on safely integrating AI into existing equipment control and
       <b>Oct. 2020 — Jun. 2023</b>
     </td>
     <td>
-      <b>Industrial Automation Company</b><br/>
-      Smart Factory & Industrial Software
+      <b>Industrial Automation</b><br/>
+      Smart Factory
     </td>
     <td>
-      <b>Industrial Software Developer</b><br/>
+      Industrial Software Developer<br/>
       Industrial controllers and real-time monitoring systems
     </td>
   </tr>
@@ -100,7 +76,7 @@ My current focus is on safely integrating AI into existing equipment control and
       <b>Mar. 2018 — Feb. 2025</b>
     </td>
     <td>
-      <b>Yeungnam University</b>
+      <b>University</b>
     </td>
     <td>
       B.S. in Computer Science,<br/>
@@ -108,7 +84,6 @@ My current focus is on safely integrating AI into existing equipment control and
     </td>
   </tr>
 </table>
-
 
 <br/>
 
@@ -311,5 +286,10 @@ alt="GitHub Activity Graph"
 
 ### From Industrial Control to Manufacturing Intelligence
 
+<img
+src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=120&section=footer"
+width="100%"
+alt="GitHub Profile Footer"
+/>
 
 </div>
