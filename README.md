@@ -203,10 +203,6 @@ My current focus is on safely integrating AI into existing equipment control and
     src="https://img.shields.io/badge/Human--in--the--loop-2D3436?style=for-the-badge&logoColor=white"
     alt="Human-in-the-loop"
   />
-  <img
-    src="https://img.shields.io/badge/HTTP_API-009688?style=for-the-badge&logoColor=white"
-    alt="HTTP API"
-  />
 </p>
 
 ### 🔧 Development Tools
@@ -284,11 +280,5 @@ alt="GitHub Activity Graph"
 <div align="center">
 
 ### From Industrial Control to Manufacturing Intelligence
-
-<img
-src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=120&section=footer"
-width="100%"
-alt="GitHub Profile Footer"
-/>
 
 </div>
