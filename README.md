@@ -9,10 +9,10 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/architecture-mobile-static-750536b70fb7.svg" />
-    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/architecture-static-357a228d92a6.svg" />
-    <source media="(max-width: 600px)" srcset="./assets/architecture-mobile-c6f199530e01.svg" />
-    <img src="./assets/architecture-5d432fa0eed1.svg" width="100%" alt="Engineering identity: industrial control → connected software and structured data → AI-assisted human decisions. SL Corporation · Production Engineering Center / Automation Company · Software Developer. Major: Computer Science." />
+    <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/architecture-mobile-static-99b066bb72a8.svg" />
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/architecture-static-b545f16ceba1.svg" />
+    <source media="(max-width: 600px)" srcset="./assets/architecture-mobile-ee9aa97c38b4.svg" />
+    <img src="./assets/architecture-1cc7f91b7f3f.svg" width="100%" alt="Engineering identity: industrial control → connected software and structured data → AI-assisted human decisions. SL Corporation · Production Engineering Center / Automation Company · Software Developer. Major: Computer Science." />
   </picture>
 </p>
 
