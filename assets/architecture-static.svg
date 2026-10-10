@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="910" viewBox="0 0 1200 910" role="img" aria-labelledby="title desc">
+<title id="title">Engineering identity — control, software, and AI</title><desc id="desc">A conceptual map of my engineering identity: industrial control feeds connected software and structured data; AI supports interpretation and human decisions. Current: SL Corporation, Production Engineering Center, July 2025 to present. Previous: Automation Company, Software Developer, October 2020 to June 2023. Major: Computer Science. Research interest: knowledge-guided manufacturing AI.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101a29"/><stop offset="1" stop-color="#090e18"/></linearGradient>
+<linearGradient id="surface" x2="1" y2="1"><stop stop-color="#24354c"/><stop offset=".55" stop-color="#19273b"/><stop offset="1" stop-color="#111c2d"/></linearGradient>
+<linearGradient id="edge" x2="0" y2="1"><stop stop-color="#25374d"/><stop offset="1" stop-color="#0d1624"/></linearGradient>
+<linearGradient id="rim"><stop stop-color="#63849b" stop-opacity=".7"/><stop offset="1" stop-color="#25394c" stop-opacity=".3"/></linearGradient>
+<filter id="shadow" x="-20%" y="-25%" width="150%" height="180%"><feGaussianBlur stdDeviation="8"/></filter>
+<style>text{font-family:Arial,Helvetica,sans-serif}.mono{font-family:'Courier New',monospace}</style>
+</defs>
+<rect x="1" y="1" width="1198" height="908" rx="24" fill="url(#bg)" stroke="#283448"/>
+<text x="40" y="48" font-size="16" fill="#9db1c9" class="mono" letter-spacing="2">01 / ENGINEERING IDENTITY</text>
+<text x="40" y="95" font-size="36" fill="#f0f4fa" font-weight="700">Manufacturing software engineer.</text>
+<path class="data-flow" d="M72 535V225" fill="none" stroke="#7f99b1" stroke-width="2" stroke-dasharray="4 7"/>
+<path d="M72 225H120" stroke="#52687f"/>
+<path d="M72 380H120" stroke="#52687f"/>
+<path d="M72 535H120" stroke="#52687f"/>
+<text x="79" y="207" font-size="26" fill="#7de2d8" >↑</text>
+<text x="79" y="570" font-size="26" fill="#7de2d8" >↓</text>
+<ellipse cx="338" cy="634" rx="175" ry="20" fill="#000" opacity=".4" filter="url(#shadow)"/>
+<path d="M120 535L330 610L540 535V557L330 632L120 557Z" fill="url(#edge)" stroke="#40576e"/>
+<path d="M120 535L330 460L540 535L330 610Z" fill="url(#surface)" stroke="#e0b382" stroke-opacity=".8"/>
+<path d="M128 545L330 619L532 545" fill="none" stroke="#e0b382" stroke-opacity=".65" stroke-width="2"/>
+<path d="M172.5 516.25L382.5 591.25" stroke="#e0b382" stroke-opacity=".12"/>
+<path d="M225.0 497.5L435.0 572.5" stroke="#e0b382" stroke-opacity=".12"/>
+<path d="M277.5 478.75L487.5 553.75" stroke="#e0b382" stroke-opacity=".12"/>
+<g class="float-ot"><g transform="translate(286.8 489.4) scale(1.2)" stroke-linejoin="round">
+<path d="M7 65L35 51L64 65L35 79Z" fill="#c08f5c" stroke="#eacba4"/>
+<path d="M7 65V72L35 86V79Z" fill="#8a5f3b"/><path d="M35 79L64 65V72L35 86Z" fill="#543c2a"/>
+<g class="robot-arm">
+<path d="M32 59L18 29L44 4L67 20" fill="none" stroke="#67482e" stroke-width="17" stroke-linecap="round"/>
+<path d="M28 55L14 25L40 0L64 16" fill="none" stroke="#d4a36e" stroke-width="13" stroke-linecap="round"/>
+<path d="M65 17L75 23L77 34M75 23L86 19L89 29" fill="none" stroke="#b8c6d5" stroke-width="4" stroke-linecap="round"/>
+<circle cx="28" cy="55" r="7" fill="#e0b382" stroke="#f4d4ad"/><circle cx="28" cy="55" r="3" fill="#725139"/>
+<circle cx="14" cy="25" r="7" fill="#e0b382" stroke="#f4d4ad"/><circle cx="14" cy="25" r="3" fill="#725139"/>
+<circle cx="40" cy="0" r="7" fill="#e0b382" stroke="#f4d4ad"/><circle cx="40" cy="0" r="3" fill="#725139"/>
+</g>
+</g></g>
+<text x="330" y="627" font-size="13" fill="#e0b382" class="mono" text-anchor="middle" letter-spacing="4">OT</text>
+<path d="M540 535H624" fill="none" stroke="#e0b382" stroke-opacity=".5"/>
+<path class="data-flow" d="M540 535H624" fill="none" stroke="#e0b382" stroke-width="2"/>
+<circle class="live-node" cx="624" cy="535" r="3" fill="#e0b382"/>
+<text x="640" y="489" font-size="16" fill="#e0b382" class="mono" letter-spacing=".6">01 / CONTROL</text>
+<text x="640" y="526" font-size="28" fill="#f0f4fa" font-weight="700">OBSERVE &amp; CONTROL</text>
+<text x="640" y="563" font-size="25" fill="#9db1c9" >PLC · LabVIEW · Robotics</text>
+<text x="640" y="594" font-size="25" fill="#9db1c9" >Vision · Process engineering</text>
+<ellipse cx="338" cy="479" rx="175" ry="20" fill="#000" opacity=".4" filter="url(#shadow)"/>
+<path d="M120 380L330 455L540 380V402L330 477L120 402Z" fill="url(#edge)" stroke="#40576e"/>
+<path d="M120 380L330 305L540 380L330 455Z" fill="url(#surface)" stroke="#7de2d8" stroke-opacity=".8"/>
+<path d="M128 390L330 464L532 390" fill="none" stroke="#7de2d8" stroke-opacity=".65" stroke-width="2"/>
+<path d="M172.5 361.25L382.5 436.25" stroke="#7de2d8" stroke-opacity=".12"/>
+<path d="M225.0 342.5L435.0 417.5" stroke="#7de2d8" stroke-opacity=".12"/>
+<path d="M277.5 323.75L487.5 398.75" stroke="#7de2d8" stroke-opacity=".12"/>
+<g class="float-it"><g transform="translate(286.8 334.4) scale(1.2)" stroke-linejoin="round">
+<path d="M1 12L30 -3L67 15L38 30Z" fill="#547d88" stroke="#9ad9dd"/>
+<path d="M1 12V61L38 79V30Z" fill="#213f4d" stroke="#6599a6"/>
+<path d="M38 30L67 15V64L38 79Z" fill="#142937" stroke="#6599a6"/>
+<path d="M9 29L30 39M9 43L30 53M9 57L30 67" stroke="#8dbecb" stroke-width="2"/>
+<path d="M51 38L82 22V60L51 76Z" fill="#132b38" stroke="#7de2d8"/>
+<path class="live-node" d="M56 65L61 53L66 56L74 40L78 43" fill="none" stroke="#7de2d8" stroke-width="2"/>
+</g></g>
+<text x="330" y="472" font-size="13" fill="#7de2d8" class="mono" text-anchor="middle" letter-spacing="4">IT</text>
+<path d="M540 380H624" fill="none" stroke="#7de2d8" stroke-opacity=".5"/>
+<path class="data-flow" d="M540 380H624" fill="none" stroke="#7de2d8" stroke-width="2"/>
+<circle class="live-node" cx="624" cy="380" r="3" fill="#7de2d8"/>
+<text x="640" y="334" font-size="16" fill="#7de2d8" class="mono" letter-spacing=".6">02 / SOFTWARE</text>
+<text x="640" y="371" font-size="28" fill="#f0f4fa" font-weight="700">CONNECT &amp; STRUCTURE</text>
+<text x="640" y="408" font-size="25" fill="#9db1c9" >Python · C++ / Qt</text>
+<text x="640" y="439" font-size="25" fill="#9db1c9" >React · Node.js · SQL</text>
+<ellipse cx="338" cy="324" rx="175" ry="20" fill="#000" opacity=".4" filter="url(#shadow)"/>
+<path d="M120 225L330 300L540 225V247L330 322L120 247Z" fill="url(#edge)" stroke="#40576e"/>
+<path d="M120 225L330 150L540 225L330 300Z" fill="url(#surface)" stroke="#bcb0ff" stroke-opacity=".8"/>
+<path d="M128 235L330 309L532 235" fill="none" stroke="#bcb0ff" stroke-opacity=".65" stroke-width="2"/>
+<path d="M172.5 206.25L382.5 281.25" stroke="#bcb0ff" stroke-opacity=".12"/>
+<path d="M225.0 187.5L435.0 262.5" stroke="#bcb0ff" stroke-opacity=".12"/>
+<path d="M277.5 168.75L487.5 243.75" stroke="#bcb0ff" stroke-opacity=".12"/>
+<g class="float-ai"><g transform="translate(286.8 179.4) scale(1.2)" stroke-linejoin="round">
+<path d="M0 12L36 -6L72 12L36 30Z" fill="#a69bff" fill-opacity=".35" stroke="#d0c5ff"/>
+<path d="M0 12V51L36 69V30Z" fill="#8b7dde" fill-opacity=".25" stroke="#a99cee"/>
+<path d="M36 30L72 12V51L36 69Z" fill="#574693" fill-opacity=".3" stroke="#a99cee"/>
+<path d="M17 28L36 17L56 29L52 49L36 58L20 47Z M17 28L52 49L36 17L20 47L56 29L36 58Z" fill="none" stroke="#e0d8ff" stroke-width="1.5"/>
+<circle class="live-node" cx="17" cy="28" r="2.8" fill="#ece7ff"/>
+<circle class="live-node" cx="36" cy="17" r="2.8" fill="#ece7ff"/>
+<circle class="live-node" cx="56" cy="29" r="2.8" fill="#ece7ff"/>
+<circle class="live-node" cx="52" cy="49" r="2.8" fill="#ece7ff"/>
+<circle class="live-node" cx="36" cy="58" r="2.8" fill="#ece7ff"/>
+<circle class="live-node" cx="20" cy="47" r="2.8" fill="#ece7ff"/>
+</g></g>
+<text x="330" y="317" font-size="13" fill="#bcb0ff" class="mono" text-anchor="middle" letter-spacing="4">AI</text>
+<path d="M540 225H624" fill="none" stroke="#bcb0ff" stroke-opacity=".5"/>
+<path class="data-flow" d="M540 225H624" fill="none" stroke="#bcb0ff" stroke-width="2"/>
+<circle class="live-node" cx="624" cy="225" r="3" fill="#bcb0ff"/>
+<text x="640" y="179" font-size="16" fill="#bcb0ff" class="mono" letter-spacing=".6">03 / INTELLIGENCE</text>
+<text x="640" y="216" font-size="28" fill="#f0f4fa" font-weight="700">INTERPRET &amp; ASSIST</text>
+<text x="640" y="253" font-size="25" fill="#9db1c9" >Local LLM · Tool calling</text>
+<text x="640" y="284" font-size="25" fill="#9db1c9" >Rules · Human review</text>
+<text x="40" y="668" font-size="16" fill="#bcb0ff" class="mono">RESEARCH / KNOWLEDGE-GUIDED MANUFACTURING AI</text>
+<text x="40" y="704" font-size="28" fill="#d5e1ef" font-weight="600">Process knowledge + data + engineering constraints</text>
+<path d="M40 755H1160" stroke="#2d4256"/>
+<text x="40" y="786" font-size="14" fill="#9db1c9" class="mono" letter-spacing="1.2">EXPERIENCE / THE FOUNDATION</text>
+<text x="40" y="828" font-size="30" fill="#f0f4fa" font-weight="700">SL Corporation</text>
+<text x="40" y="863" font-size="26" fill="#7de2d8" >Production Engineering Center</text>
+<text x="40" y="894" font-size="16" fill="#9db1c9" class="mono">2025.07 — PRESENT</text>
+<text x="660" y="828" font-size="30" fill="#f0f4fa" font-weight="700">Automation Company</text>
+<text x="660" y="863" font-size="26" fill="#e0b382" >Software Developer</text>
+<text x="660" y="894" font-size="16" fill="#9db1c9" class="mono">2020.10 — 2023.06</text>
+<text x="1148" y="786" font-size="19" fill="#bcb0ff" text-anchor="end">Major · Computer Science</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="180" viewBox="0 0 380 180" role="img" aria-labelledby="title desc">
+<title id="title">Portfolio</title><desc id="desc">Open fortex66.github.io.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101a29"/><stop offset="1" stop-color="#090e18"/></linearGradient>
+<linearGradient id="surface" x2="1" y2="1"><stop stop-color="#24354c"/><stop offset=".55" stop-color="#19273b"/><stop offset="1" stop-color="#111c2d"/></linearGradient>
+<linearGradient id="edge" x2="0" y2="1"><stop stop-color="#25374d"/><stop offset="1" stop-color="#0d1624"/></linearGradient>
+<linearGradient id="rim"><stop stop-color="#63849b" stop-opacity=".7"/><stop offset="1" stop-color="#25394c" stop-opacity=".3"/></linearGradient>
+<filter id="shadow" x="-20%" y="-25%" width="150%" height="180%"><feGaussianBlur stdDeviation="8"/></filter>
+<style>text{font-family:Arial,Helvetica,sans-serif}.mono{font-family:'Courier New',monospace}</style>
+</defs>
+<rect x="18" y="28" width="344" height="144" rx="16" fill="#000" opacity=".42" filter="url(#shadow)"/>
+<rect x="15" y="20" width="352" height="144" rx="16" fill="url(#edge)" stroke="#26394f"/>
+<rect x="8" y="8" width="352" height="144" rx="16" fill="url(#surface)" stroke="url(#rim)"/>
+<path d="M26 9H342" stroke="#bcb0ff" stroke-opacity=".5"/>
+<path d="M12 32V128" stroke="#bcb0ff" stroke-width="2" stroke-opacity=".5"/>
+<path d="M27 93L58 78L89 93V105L58 121L27 105Z" fill="url(#edge)" stroke="#bcb0ff" stroke-opacity=".5"/>
+<path d="M27 93L58 78L89 93L58 109Z" fill="url(#surface)" stroke="#bcb0ff"/>
+<g stroke="#bcb0ff" stroke-width="2" stroke-linejoin="round">
+<path d="M33 54L61 40L83 51V85L55 99L33 88Z" fill="#232e49"/>
+<path d="M33 54L55 65L83 51M55 65V99" fill="none"/>
+<path d="M61 61L75 54M61 72L75 65M61 83L70 78" fill="none"/>
+</g>
+<text x="110" y="63" font-size="30" fill="#f0f4fa" font-weight="700">Portfolio</text>
+<text x="110" y="97" font-size="18" fill="#a8bbd1" >fortex66.github.io</text>
+<text x="110" y="130" font-size="12" fill="#bcb0ff" class="mono" letter-spacing="2">OPEN →</text>
+</svg>

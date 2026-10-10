@@ -9,15 +9,17 @@
 
 <p align="center">
   <picture>
+    <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/architecture-mobile-static.svg" />
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/architecture-static.svg" />
     <source media="(max-width: 600px)" srcset="./assets/architecture-mobile.svg" />
-    <img src="./assets/architecture.svg" width="100%" alt="Engineering identity: industrial control → connected software and structured data → AI-assisted human decisions. SL Corporation · 생산기술센터 / 자동화 회사 · 소프트웨어 개발자. 전공: 컴퓨터학부." />
+    <img src="./assets/architecture.svg" width="100%" alt="Engineering identity: industrial control → connected software and structured data → AI-assisted human decisions. SL Corporation · Production Engineering Center / Automation Company · Software Developer. Major: Computer Science." />
   </picture>
 </p>
 
 <p align="center">
-  <a href="https://fortex66.github.io/">Portfolio</a> ·
-  <a href="https://fortex66.tistory.com/">Tech blog</a> ·
-  <a href="mailto:fortex66@naver.com">Email</a>
+  <a href="https://fortex66.github.io/"><img src="./assets/contact-portfolio.svg" width="270" alt="Portfolio — fortex66.github.io" /></a>
+  <a href="https://fortex66.tistory.com/"><img src="./assets/contact-blog.svg" width="270" alt="Tech Blog — fortex66.tistory.com" /></a>
+  <a href="mailto:fortex66@naver.com"><img src="./assets/contact-email.svg" width="270" alt="Email — fortex66@naver.com" /></a>
 </p>
 
 <p align="center">
@@ -31,9 +33,9 @@
 <summary>Text version & project links</summary>
 
 **Identity:** Manufacturing software engineer — connecting industrial control, structured data, and AI-assisted decisions.<br/>
-**Current:** SL Corporation · 생산기술센터 (Jul. 2025–Present).<br/>
-**Previously:** 자동화 회사 · 소프트웨어 개발자 (Oct. 2020–Jun. 2023).<br/>
-**Major:** 컴퓨터학부.
+**Current:** SL Corporation · Production Engineering Center (Jul. 2025–Present).<br/>
+**Previously:** Automation Company · Software Developer (Oct. 2020–Jun. 2023).<br/>
+**Major:** Computer Science.
 
 - **PLC AI Studio** — AI-assisted PLC analysis & change review. In development; private repository.
 - **[Local LLM × LabVIEW](https://github.com/fortex66/local-llm-field-monitoring-agent)** — Natural-language tools for existing systems.
