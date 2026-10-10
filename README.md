@@ -1,5 +1,7 @@
 <p align="center">
   <picture>
+    <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/identity-mobile-static.svg" />
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/identity-static.svg" />
     <source media="(max-width: 600px)" srcset="./assets/identity-mobile.svg" />
     <img src="./assets/identity.svg" width="100%" alt="Eonsang Son — OT × IT × AI. An isometric robot, data server, and AI core connect industrial equipment to manufacturing intelligence." />
   </picture>
