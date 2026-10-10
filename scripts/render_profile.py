@@ -68,7 +68,7 @@ def asset(stem):
 
 def architecture(mobile=False, animated=True):
     """An exploded isometric structure, with career as its foundation."""
-    w,h = (700,1080) if mobile else (1200,910)
+    w,h = (700,1320) if mobile else (1200,930)
     s=panel(w,h,'Engineering identity — control, software, and AI',
         'A conceptual map of my engineering identity: industrial control feeds connected software and structured data; AI supports interpretation and human decisions. Current: SL Corporation, Production Engineering Center, July 2025 to present. Previous: Automation Company, Software Developer, October 2020 to June 2023. Major: Computer Science. Research interest: knowledge-guided manufacturing AI.')
     if animated:
@@ -149,13 +149,26 @@ def architecture(mobile=False, animated=True):
     s += [text(40,ry,'RESEARCH / KNOWLEDGE-GUIDED MANUFACTURING AI',16,'#bcb0ff','class="mono"'),text(40,ry+36,'Process knowledge + data + engineering constraints',22 if mobile else 28,'#d5e1ef','font-weight="600"')]
     fy=810 if mobile else 755
     s += [f'<path d="M40 {fy}H{w-40}" stroke="#2d4256"/>',text(40,fy+31,'EXPERIENCE / THE FOUNDATION',14,'#9db1c9','class="mono" letter-spacing="1.2"')]
-    x2=370 if mobile else 660
-    s += [text(40,fy+73,'SL Corporation',28 if mobile else 30,'#f0f4fa','font-weight="700"'),text(40,fy+108,'Production Engineering Center',18 if mobile else 26,'#7de2d8'),text(40,fy+139,'2025.07 — PRESENT',16,'#9db1c9','class="mono"'),text(x2,fy+73,'Automation Company',26 if mobile else 30,'#f0f4fa','font-weight="700"'),text(x2,fy+108,'Software Developer',24 if mobile else 26,'#e0b382'),text(x2,fy+139,'2020.10 — 2023.06',16,'#9db1c9','class="mono"')]
-    if mobile:
-        s.append(text(40,1030,'Major · Computer Science',24,'#bcb0ff'))
-    else:
-        # Major remains a small personal detail beside the architecture, without a school.
-        s.append(text(1148,fy+31,'Major · Computer Science',19,'#bcb0ff','text-anchor="end"'))
+    foundation=[
+        ('SL Corporation','Production Engineering Center','2025.07 — PRESENT','#7de2d8'),
+        ('Automation Company','Software Developer','2020.10 — 2023.06','#e0b382'),
+        ('Computer Science','Major',None,'#bcb0ff'),
+    ]
+    # Three equal-width columns, with matching title and detail baselines.
+    # Narrow screens use equally spaced rows at a readable type size.
+    column_width=(w-80-64)/3
+    for i,(title,detail,dates,color) in enumerate(foundation):
+        x=40 if mobile else 40+i*(column_width+32)
+        y=fy+73+(i*150 if mobile else 0)
+        s += [text(x,y,title,30 if mobile else 28,'#f0f4fa','font-weight="700"'),
+              text(x,y+35,detail,24 if mobile else 20,color)]
+        if dates:s.append(text(x,y+66,dates,16,'#9db1c9','class="mono"'))
+        if i<2:
+            if mobile:
+                s.append(f'<path d="M40 {y+99}H{w-40}" stroke="#2d4256"/>')
+            else:
+                divider=x+column_width+16
+                s.append(f'<path d="M{divider} {fy+57}V{fy+150}" stroke="#2d4256"/>')
     stem='architecture-mobile' if mobile else 'architecture'
     write(stem+('' if animated else '-static')+'.svg',s)
 
