@@ -9,10 +9,10 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/architecture-mobile-static-99b066bb72a8.svg" />
-    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/architecture-static-b545f16ceba1.svg" />
-    <source media="(max-width: 600px)" srcset="./assets/architecture-mobile-ee9aa97c38b4.svg" />
-    <img src="./assets/architecture-1cc7f91b7f3f.svg" width="100%" alt="Engineering identity: industrial control → connected software and structured data → AI-assisted human decisions. SL Corporation · Production Engineering Center / Automation Company · Software Developer. Major: Computer Science." />
+    <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/architecture-mobile-static-268c4285ae1d.svg" />
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/architecture-static-c861cd4d4798.svg" />
+    <source media="(max-width: 600px)" srcset="./assets/architecture-mobile-774d914f69b7.svg" />
+    <img src="./assets/architecture-019cb7adb7ce.svg" width="100%" alt="Engineering identity: industrial control → connected software and structured data → AI-assisted human decisions. SL Corporation · Production Engineering Center / Automation Company · Software Developer. Major: Computer Science." />
   </picture>
 </p>
 
@@ -35,7 +35,7 @@
 **Identity:** Manufacturing software engineer — connecting industrial control, structured data, and AI-assisted decisions.<br/>
 **Current:** SL Corporation · Production Engineering Center (Jul. 2025–Present).<br/>
 **Previously:** Automation Company · Software Developer (Oct. 2020–Jun. 2023).<br/>
-**Major:** Computer Science.
+**Education:** Bachelor’s Degree · Computer Science (Mar. 2018–Feb. 2025).
 
 - **PLC AI Studio** — AI-assisted PLC analysis & change review. In development; private repository.
 - **[Local LLM × LabVIEW](https://github.com/fortex66/local-llm-field-monitoring-agent)** — Natural-language tools for existing systems.

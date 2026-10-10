@@ -70,17 +70,16 @@ def architecture(mobile=False, animated=True):
     """An exploded isometric structure, with career as its foundation."""
     w,h = (700,1320) if mobile else (1200,930)
     s=panel(w,h,'Engineering identity — control, software, and AI',
-        'A conceptual map of my engineering identity: industrial control feeds connected software and structured data; AI supports interpretation and human decisions. Current: SL Corporation, Production Engineering Center, July 2025 to present. Previous: Automation Company, Software Developer, October 2020 to June 2023. Major: Computer Science. Research interest: knowledge-guided manufacturing AI.')
+        'A conceptual map of my engineering identity: industrial control feeds connected software and structured data; AI supports interpretation and human decisions. Current: SL Corporation, Production Engineering Center, July 2025 to present. Previous: Automation Company, Software Developer, October 2020 to June 2023. Education: Bachelor’s Degree, Computer Science, March 2018 to February 2025. Research interest: knowledge-guided manufacturing AI.')
     if animated:
         s.append('''<style>
 .float-ai{animation:float 6s ease-in-out infinite}
 .float-it{animation:float 7s ease-in-out -2s infinite}
-.float-ot{animation:float 8s ease-in-out -4s infinite}
-.robot-arm{animation:reach 8s ease-in-out infinite}
+.robot-arm{animation:reach 6s ease-in-out infinite}
 .data-flow{stroke-dasharray:4 14;animation:flow 5s linear infinite}
 .live-node{animation:pulse 4s ease-in-out infinite}
 @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
-@keyframes reach{0%,100%{transform:rotate(0deg);transform-origin:28px 55px}50%{transform:rotate(-8deg);transform-origin:28px 55px}}
+@keyframes reach{0%,100%{transform:translateX(-7px)}50%{transform:translateX(7px)}}
 @keyframes flow{to{stroke-dashoffset:-72}}
 @keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}}
 @media(prefers-reduced-motion:reduce){.float-ai,.float-it,.float-ot,.robot-arm,.data-flow,.live-node{animation:none}}
@@ -152,7 +151,7 @@ def architecture(mobile=False, animated=True):
     foundation=[
         ('SL Corporation','Production Engineering Center','2025.07 — PRESENT','#7de2d8'),
         ('Automation Company','Software Developer','2020.10 — 2023.06','#e0b382'),
-        ('Computer Science','Major',None,'#bcb0ff'),
+        ('Bachelor’s Degree','Computer Science','2018.03 — 2025.02','#bcb0ff'),
     ]
     # Three equal-width columns, with matching title and detail baselines.
     # Narrow screens use equally spaced rows at a readable type size.
@@ -256,7 +255,7 @@ def readme():
 **Identity:** Manufacturing software engineer — connecting industrial control, structured data, and AI-assisted decisions.<br/>
 **Current:** SL Corporation · Production Engineering Center (Jul. 2025–Present).<br/>
 **Previously:** Automation Company · Software Developer (Oct. 2020–Jun. 2023).<br/>
-**Major:** Computer Science.
+**Education:** Bachelor’s Degree · Computer Science (Mar. 2018–Feb. 2025).
 ''']
     for i,(name,summary,tag,url,color) in enumerate(PROJECTS):
         label=f'[{name}]({url})' if url else name
