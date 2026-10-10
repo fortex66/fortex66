@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="412" viewBox="0 0 1200 412" role="img" aria-labelledby="title desc">
+<title id="title">Core stack &amp; research direction</title><desc id="desc">Control: PLC, LabVIEW, robotics, vision. Software: Python, C++, Qt, React, Node.js, SQL. AI integration: local LLMs, tool calling, rule-based validation. Research interest: knowledge-guided manufacturing AI, combining process data with engineering constraints.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101a29"/><stop offset="1" stop-color="#090e18"/></linearGradient>
+<linearGradient id="surface" x2="1" y2="1"><stop stop-color="#24354c"/><stop offset=".55" stop-color="#19273b"/><stop offset="1" stop-color="#111c2d"/></linearGradient>
+<linearGradient id="edge" x2="0" y2="1"><stop stop-color="#25374d"/><stop offset="1" stop-color="#0d1624"/></linearGradient>
+<linearGradient id="rim"><stop stop-color="#63849b" stop-opacity=".7"/><stop offset="1" stop-color="#25394c" stop-opacity=".3"/></linearGradient>
+<filter id="shadow" x="-20%" y="-25%" width="150%" height="180%"><feGaussianBlur stdDeviation="8"/></filter>
+<style>text{font-family:Arial,Helvetica,sans-serif}.mono{font-family:'Courier New',monospace}</style>
+</defs>
+<rect x="1" y="1" width="1198" height="410" rx="24" fill="url(#bg)" stroke="#283448"/>
+<text x="40" y="48" font-size="16" fill="#9db1c9" class="mono" letter-spacing="2">03 / CAPABILITIES</text>
+<text x="40" y="95" font-size="32" fill="#f0f4fa" font-weight="700">Three layers. One engineering mindset.</text>
+<rect x="42" y="144" width="354" height="140" rx="16" fill="#000" opacity=".42" filter="url(#shadow)"/>
+<rect x="39" y="136" width="362" height="140" rx="16" fill="url(#edge)" stroke="#26394f"/>
+<rect x="32" y="124" width="362" height="140" rx="16" fill="url(#surface)" stroke="url(#rim)"/>
+<path d="M50 125H376" stroke="#e0b382" stroke-opacity=".5"/>
+<path d="M36 148V240" stroke="#e0b382" stroke-width="2" stroke-opacity=".5"/>
+<g transform="translate(330 157) scale(0.7)" stroke="#e0b382" stroke-linejoin="round">
+<path d="M0 0L18 -9L36 0L18 9Z" fill="#e0b382" fill-opacity=".4"/>
+<path d="M0 0V20L18 29V9Z" fill="#e0b382" fill-opacity=".18"/>
+<path d="M18 9L36 0V20L18 29Z" fill="#e0b382" fill-opacity=".08"/>
+</g>
+<text x="58" y="156" font-size="16" fill="#e0b382" class="mono">CONTROL / OT</text>
+<text x="58" y="202" font-size="24" fill="#d5e1ef" >PLC · LabVIEW</text>
+<text x="58" y="234" font-size="24" fill="#d5e1ef" >Robotics · Vision</text>
+<rect x="428" y="144" width="354" height="140" rx="16" fill="#000" opacity=".42" filter="url(#shadow)"/>
+<rect x="425" y="136" width="362" height="140" rx="16" fill="url(#edge)" stroke="#26394f"/>
+<rect x="418" y="124" width="362" height="140" rx="16" fill="url(#surface)" stroke="url(#rim)"/>
+<path d="M436 125H762" stroke="#7de2d8" stroke-opacity=".5"/>
+<path d="M422 148V240" stroke="#7de2d8" stroke-width="2" stroke-opacity=".5"/>
+<g transform="translate(716 157) scale(0.7)" stroke="#7de2d8" stroke-linejoin="round">
+<path d="M0 0L18 -9L36 0L18 9Z" fill="#7de2d8" fill-opacity=".4"/>
+<path d="M0 0V20L18 29V9Z" fill="#7de2d8" fill-opacity=".18"/>
+<path d="M18 9L36 0V20L18 29Z" fill="#7de2d8" fill-opacity=".08"/>
+</g>
+<text x="444" y="156" font-size="16" fill="#7de2d8" class="mono">SOFTWARE / IT</text>
+<text x="444" y="202" font-size="24" fill="#d5e1ef" >Python · C++ / Qt</text>
+<text x="444" y="234" font-size="24" fill="#d5e1ef" >React · Node.js · SQL</text>
+<rect x="814" y="144" width="354" height="140" rx="16" fill="#000" opacity=".42" filter="url(#shadow)"/>
+<rect x="811" y="136" width="362" height="140" rx="16" fill="url(#edge)" stroke="#26394f"/>
+<rect x="804" y="124" width="362" height="140" rx="16" fill="url(#surface)" stroke="url(#rim)"/>
+<path d="M822 125H1148" stroke="#bcb0ff" stroke-opacity=".5"/>
+<path d="M808 148V240" stroke="#bcb0ff" stroke-width="2" stroke-opacity=".5"/>
+<g transform="translate(1102 157) scale(0.7)" stroke="#bcb0ff" stroke-linejoin="round">
+<path d="M0 0L18 -9L36 0L18 9Z" fill="#bcb0ff" fill-opacity=".4"/>
+<path d="M0 0V20L18 29V9Z" fill="#bcb0ff" fill-opacity=".18"/>
+<path d="M18 9L36 0V20L18 29Z" fill="#bcb0ff" fill-opacity=".08"/>
+</g>
+<text x="830" y="156" font-size="16" fill="#bcb0ff" class="mono">AI INTEGRATION</text>
+<text x="830" y="202" font-size="24" fill="#d5e1ef" >Local LLM · Tool calling</text>
+<text x="830" y="234" font-size="24" fill="#d5e1ef" >Rule-based validation</text>
+<text x="40" y="318" font-size="17" fill="#bcb0ff" class="mono">RESEARCH INTEREST / KNOWLEDGE-GUIDED MANUFACTURING AI</text>
+<text x="40" y="356" font-size="25" fill="#f0f4fa" font-weight="600">Process data + engineering constraints</text>
+<text x="40" y="388" font-size="23" fill="#9db1c9" >for human-centered decision support.</text>
+</svg>

@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="2532" viewBox="0 0 700 2532" role="img" aria-labelledby="title desc">
+<title id="title">Project collection — eleven projects</title><desc id="desc">PLC AI Studio: AI-assisted PLC analysis &amp; change review.; Local LLM × LabVIEW: Natural-language tools for existing systems.; Manufacturing Process Optimization: Feedback-driven manufacturing improvement.; Vision &amp; Robot Alignment: Vision, robotics, and production integration.; G90 · GV90 Programs: Project participation &amp; process engineering.; Industrial Embedded Controllers: Industrial HMI and embedded control software.; Water Treatment SCADA: Connected facilities and remote operation.; ForTex-Viewer: PLC-connected monitoring and visualization.; EV Battery Management: Sensor-based energy monitoring and control.; JourneyMate: Travel information and real-time collaboration.; SmartFarm: A trading platform for the smart-farm domain.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101a29"/><stop offset="1" stop-color="#090e18"/></linearGradient>
+<linearGradient id="surface" x2="1" y2="1"><stop stop-color="#24354c"/><stop offset=".55" stop-color="#19273b"/><stop offset="1" stop-color="#111c2d"/></linearGradient>
+<linearGradient id="edge" x2="0" y2="1"><stop stop-color="#25374d"/><stop offset="1" stop-color="#0d1624"/></linearGradient>
+<linearGradient id="rim"><stop stop-color="#63849b" stop-opacity=".7"/><stop offset="1" stop-color="#25394c" stop-opacity=".3"/></linearGradient>
+<filter id="shadow" x="-20%" y="-25%" width="150%" height="180%"><feGaussianBlur stdDeviation="8"/></filter>
+<style>text{font-family:Arial,Helvetica,sans-serif}.mono{font-family:'Courier New',monospace}</style>
+</defs>
+<rect x="1" y="1" width="698" height="2530" rx="24" fill="url(#bg)" stroke="#283448"/>
+<text x="40" y="48" font-size="16" fill="#9db1c9" class="mono" letter-spacing="2">02 / PROJECT COLLECTION</text>
+<text x="40" y="95" font-size="32" fill="#f0f4fa" font-weight="700">Systems, from field to software.</text>
+<rect x="42" y="144" width="616" height="190" rx="16" fill="#000" opacity=".42" filter="url(#shadow)"/>
+<rect x="39" y="136" width="624" height="190" rx="16" fill="url(#edge)" stroke="#26394f"/>
+<rect x="32" y="124" width="624" height="190" rx="16" fill="url(#surface)" stroke="url(#rim)"/>
+<path d="M50 125H638" stroke="#bcb0ff" stroke-opacity=".5"/>
+<path d="M36 148V290" stroke="#bcb0ff" stroke-width="2" stroke-opacity=".5"/>
+<g transform="translate(594 155) scale(0.65)" stroke="#bcb0ff" stroke-linejoin="round">
+<path d="M0 0L18 -9L36 0L18 9Z" fill="#bcb0ff" fill-opacity=".4"/>
+<path d="M0 0V20L18 29V9Z" fill="#bcb0ff" fill-opacity=".18"/>
+<path d="M18 9L36 0V20L18 29Z" fill="#bcb0ff" fill-opacity=".08"/>
+</g>
+<text x="58" y="154" font-size="16" fill="#bcb0ff" class="mono" letter-spacing=".4">01 / AI + RULES / IN DEVELOPMENT</text>
+<text x="58" y="200" font-size="29" fill="#f0f4fa" font-weight="700">PLC AI Studio</text>
+<text x="58" y="238" font-size="24" fill="#a8bbd1" >AI-assisted PLC analysis &amp; change review.</text>
+<text x="58" y="299" font-size="13" fill="#8a9db5" class="mono">PRIVATE REPOSITORY</text>
+<rect x="42" y="360" width="616" height="190" rx="16" fill="#000" opacity=".42" filter="url(#shadow)"/>
+<rect x="39" y="352" width="624" height="190" rx="16" fill="url(#edge)" stroke="#26394f"/>
+<rect x="32" y="340" width="624" height="190" rx="16" fill="url(#surface)" stroke="url(#rim)"/>
+<path d="M50 341H638" stroke="#bcb0ff" stroke-opacity=".5"/>
+<path d="M36 364V506" stroke="#bcb0ff" stroke-width="2" stroke-opacity=".5"/>
+<g transform="translate(594 371) scale(0.65)" stroke="#bcb0ff" stroke-linejoin="round">
+<path d="M0 0L18 -9L36 0L18 9Z" fill="#bcb0ff" fill-opacity=".4"/>
+<path d="M0 0V20L18 29V9Z" fill="#bcb0ff" fill-opacity=".18"/>
+<path d="M18 9L36 0V20L18 29Z" fill="#bcb0ff" fill-opacity=".08"/>
+</g>
+<text x="58" y="370" font-size="16" fill="#bcb0ff" class="mono" letter-spacing=".4">02 / LOCAL AI / SYSTEM INTEGRATION</text>
+<text x="58" y="416" font-size="29" fill="#f0f4fa" font-weight="700">Local LLM × LabVIEW</text>
+<text x="58" y="454" font-size="24" fill="#a8bbd1" >Natural-language tools for existing</text>
+<text x="58" y="483" font-size="24" fill="#a8bbd1" >systems.</text>
+<rect x="42" y="576" width="616" height="190" rx="16" fill="#000" opacity=".42" filter="url(#shadow)"/>
+<rect x="39" y="568" width="624" height="190" rx="16" fill="url(#edge)" stroke="#26394f"/>
+<rect x="32" y="556" width="624" height="190" rx="16" fill="url(#surface)" stroke="url(#rim)"/>
+<path d="M50 557H638" stroke="#e0b382" stroke-opacity=".5"/>
+<path d="M36 580V722" stroke="#e0b382" stroke-width="2" stroke-opacity=".5"/>
+<g transform="translate(594 587) scale(0.65)" stroke="#e0b382" stroke-linejoin="round">
+<path d="M0 0L18 -9L36 0L18 9Z" fill="#e0b382" fill-opacity=".4"/>
+<path d="M0 0V20L18 29V9Z" fill="#e0b382" fill-opacity=".18"/>
+<path d="M18 9L36 0V20L18 29Z" fill="#e0b382" fill-opacity=".08"/>
+</g>
+<text x="58" y="586" font-size="16" fill="#e0b382" class="mono" letter-spacing=".4">03 / CONTROL / PROCESS ENGINEERING</text>
+<text x="58" y="632" font-size="29" fill="#f0f4fa" font-weight="700">Manufacturing Process Optimization</text>
+<text x="58" y="670" font-size="24" fill="#a8bbd1" >Feedback-driven manufacturing improvement.</text>
+<rect x="42" y="792" width="616" height="190" rx="16" fill="#000" opacity=".42" filter="url(#shadow)"/>
+<rect x="39" y="784" width="624" height="190" rx="16" fill="url(#edge)" stroke="#26394f"/>
+<rect x="32" y="772" width="624" height="190" rx="16" fill="url(#surface)" stroke="url(#rim)"/>
+<path d="M50 773H638" stroke="#e0b382" stroke-opacity=".5"/>
+<path d="M36 796V938" stroke="#e0b382" stroke-width="2" stroke-opacity=".5"/>
+<g transform="translate(594 803) scale(0.65)" stroke="#e0b382" stroke-linejoin="round">
+<path d="M0 0L18 -9L36 0L18 9Z" fill="#e0b382" fill-opacity=".4"/>
+<path d="M0 0V20L18 29V9Z" fill="#e0b382" fill-opacity=".18"/>
+<path d="M18 9L36 0V20L18 29Z" fill="#e0b382" fill-opacity=".08"/>
+</g>
+<text x="58" y="802" font-size="16" fill="#e0b382" class="mono" letter-spacing=".4">04 / VISION / ROBOTICS / MES</text>
+<text x="58" y="848" font-size="29" fill="#f0f4fa" font-weight="700">Vision &amp; Robot Alignment</text>
+<text x="58" y="886" font-size="24" fill="#a8bbd1" >Vision, robotics, and production</text>
+<text x="58" y="915" font-size="24" fill="#a8bbd1" >integration.</text>
+<rect x="42" y="1008" width="616" height="190" rx="16" fill="#000" opacity=".42" filter="url(#shadow)"/>
+<rect x="39" y="1000" width="624" height="190" rx="16" fill="url(#edge)" stroke="#26394f"/>
+<rect x="32" y="988" width="624" height="190" rx="16" fill="url(#surface)" stroke="url(#rim)"/>
+<path d="M50 989H638" stroke="#e0b382" stroke-opacity=".5"/>
+<path d="M36 1012V1154" stroke="#e0b382" stroke-width="2" stroke-opacity=".5"/>
+<g transform="translate(594 1019) scale(0.65)" stroke="#e0b382" stroke-linejoin="round">
+<path d="M0 0L18 -9L36 0L18 9Z" fill="#e0b382" fill-opacity=".4"/>
+<path d="M0 0V20L18 29V9Z" fill="#e0b382" fill-opacity=".18"/>
+<path d="M18 9L36 0V20L18 29Z" fill="#e0b382" fill-opacity=".08"/>
+</g>
+<text x="58" y="1018" font-size="16" fill="#e0b382" class="mono" letter-spacing=".4">05 / AUTOMOTIVE / MANUFACTURING</text>
+<text x="58" y="1064" font-size="29" fill="#f0f4fa" font-weight="700">G90 · GV90 Programs</text>
+<text x="58" y="1102" font-size="24" fill="#a8bbd1" >Project participation &amp; process</text>
+<text x="58" y="1131" font-size="24" fill="#a8bbd1" >engineering.</text>
+<rect x="42" y="1224" width="616" height="190" rx="16" fill="#000" opacity=".42" filter="url(#shadow)"/>
+<rect x="39" y="1216" width="624" height="190" rx="16" fill="url(#edge)" stroke="#26394f"/>
+<rect x="32" y="1204" width="624" height="190" rx="16" fill="url(#surface)" stroke="url(#rim)"/>
+<path d="M50 1205H638" stroke="#7de2d8" stroke-opacity=".5"/>
+<path d="M36 1228V1370" stroke="#7de2d8" stroke-width="2" stroke-opacity=".5"/>
+<g transform="translate(594 1235) scale(0.65)" stroke="#7de2d8" stroke-linejoin="round">
+<path d="M0 0L18 -9L36 0L18 9Z" fill="#7de2d8" fill-opacity=".4"/>
+<path d="M0 0V20L18 29V9Z" fill="#7de2d8" fill-opacity=".18"/>
+<path d="M18 9L36 0V20L18 29Z" fill="#7de2d8" fill-opacity=".08"/>
+</g>
+<text x="58" y="1234" font-size="16" fill="#7de2d8" class="mono" letter-spacing=".4">06 / C++ / QT / LINUX</text>
+<text x="58" y="1280" font-size="29" fill="#f0f4fa" font-weight="700">Industrial Embedded Controllers</text>
+<text x="58" y="1318" font-size="24" fill="#a8bbd1" >Industrial HMI and embedded control</text>
+<text x="58" y="1347" font-size="24" fill="#a8bbd1" >software.</text>
+<rect x="42" y="1440" width="616" height="190" rx="16" fill="#000" opacity=".42" filter="url(#shadow)"/>
+<rect x="39" y="1432" width="624" height="190" rx="16" fill="url(#edge)" stroke="#26394f"/>
+<rect x="32" y="1420" width="624" height="190" rx="16" fill="url(#surface)" stroke="url(#rim)"/>
+<path d="M50 1421H638" stroke="#7de2d8" stroke-opacity=".5"/>
+<path d="M36 1444V1586" stroke="#7de2d8" stroke-width="2" stroke-opacity=".5"/>
+<g transform="translate(594 1451) scale(0.65)" stroke="#7de2d8" stroke-linejoin="round">
+<path d="M0 0L18 -9L36 0L18 9Z" fill="#7de2d8" fill-opacity=".4"/>
+<path d="M0 0V20L18 29V9Z" fill="#7de2d8" fill-opacity=".18"/>
+<path d="M18 9L36 0V20L18 29Z" fill="#7de2d8" fill-opacity=".08"/>
+</g>
+<text x="58" y="1450" font-size="16" fill="#7de2d8" class="mono" letter-spacing=".4">07 / INDUSTRIAL MONITORING / CONTROL</text>
+<text x="58" y="1496" font-size="29" fill="#f0f4fa" font-weight="700">Water Treatment SCADA</text>
+<text x="58" y="1534" font-size="24" fill="#a8bbd1" >Connected facilities and remote operation.</text>
+<rect x="42" y="1656" width="616" height="190" rx="16" fill="#000" opacity=".42" filter="url(#shadow)"/>
+<rect x="39" y="1648" width="624" height="190" rx="16" fill="url(#edge)" stroke="#26394f"/>
+<rect x="32" y="1636" width="624" height="190" rx="16" fill="url(#surface)" stroke="url(#rim)"/>
+<path d="M50 1637H638" stroke="#7de2d8" stroke-opacity=".5"/>
+<path d="M36 1660V1802" stroke="#7de2d8" stroke-width="2" stroke-opacity=".5"/>
+<g transform="translate(594 1667) scale(0.65)" stroke="#7de2d8" stroke-linejoin="round">
+<path d="M0 0L18 -9L36 0L18 9Z" fill="#7de2d8" fill-opacity=".4"/>
+<path d="M0 0V20L18 29V9Z" fill="#7de2d8" fill-opacity=".18"/>
+<path d="M18 9L36 0V20L18 29Z" fill="#7de2d8" fill-opacity=".08"/>
+</g>
+<text x="58" y="1666" font-size="16" fill="#7de2d8" class="mono" letter-spacing=".4">08 / PLC / WEB / DATA</text>
+<text x="58" y="1712" font-size="29" fill="#f0f4fa" font-weight="700">ForTex-Viewer</text>
+<text x="58" y="1750" font-size="24" fill="#a8bbd1" >PLC-connected monitoring and visualization.</text>
+<rect x="42" y="1872" width="616" height="190" rx="16" fill="#000" opacity=".42" filter="url(#shadow)"/>
+<rect x="39" y="1864" width="624" height="190" rx="16" fill="url(#edge)" stroke="#26394f"/>
+<rect x="32" y="1852" width="624" height="190" rx="16" fill="url(#surface)" stroke="url(#rim)"/>
+<path d="M50 1853H638" stroke="#7de2d8" stroke-opacity=".5"/>
+<path d="M36 1876V2018" stroke="#7de2d8" stroke-width="2" stroke-opacity=".5"/>
+<g transform="translate(594 1883) scale(0.65)" stroke="#7de2d8" stroke-linejoin="round">
+<path d="M0 0L18 -9L36 0L18 9Z" fill="#7de2d8" fill-opacity=".4"/>
+<path d="M0 0V20L18 29V9Z" fill="#7de2d8" fill-opacity=".18"/>
+<path d="M18 9L36 0V20L18 29Z" fill="#7de2d8" fill-opacity=".08"/>
+</g>
+<text x="58" y="1882" font-size="16" fill="#7de2d8" class="mono" letter-spacing=".4">09 / ENERGY / EMBEDDED SYSTEMS</text>
+<text x="58" y="1928" font-size="29" fill="#f0f4fa" font-weight="700">EV Battery Management</text>
+<text x="58" y="1966" font-size="24" fill="#a8bbd1" >Sensor-based energy monitoring and control.</text>
+<rect x="42" y="2088" width="616" height="190" rx="16" fill="#000" opacity=".42" filter="url(#shadow)"/>
+<rect x="39" y="2080" width="624" height="190" rx="16" fill="url(#edge)" stroke="#26394f"/>
+<rect x="32" y="2068" width="624" height="190" rx="16" fill="url(#surface)" stroke="url(#rim)"/>
+<path d="M50 2069H638" stroke="#7de2d8" stroke-opacity=".5"/>
+<path d="M36 2092V2234" stroke="#7de2d8" stroke-width="2" stroke-opacity=".5"/>
+<g transform="translate(594 2099) scale(0.65)" stroke="#7de2d8" stroke-linejoin="round">
+<path d="M0 0L18 -9L36 0L18 9Z" fill="#7de2d8" fill-opacity=".4"/>
+<path d="M0 0V20L18 29V9Z" fill="#7de2d8" fill-opacity=".18"/>
+<path d="M18 9L36 0V20L18 29Z" fill="#7de2d8" fill-opacity=".08"/>
+</g>
+<text x="58" y="2098" font-size="16" fill="#7de2d8" class="mono" letter-spacing=".4">10 / WEB / REAL-TIME SERVICES</text>
+<text x="58" y="2144" font-size="29" fill="#f0f4fa" font-weight="700">JourneyMate</text>
+<text x="58" y="2182" font-size="24" fill="#a8bbd1" >Travel information and real-time</text>
+<text x="58" y="2211" font-size="24" fill="#a8bbd1" >collaboration.</text>
+<rect x="42" y="2304" width="616" height="190" rx="16" fill="#000" opacity=".42" filter="url(#shadow)"/>
+<rect x="39" y="2296" width="624" height="190" rx="16" fill="url(#edge)" stroke="#26394f"/>
+<rect x="32" y="2284" width="624" height="190" rx="16" fill="url(#surface)" stroke="url(#rim)"/>
+<path d="M50 2285H638" stroke="#7de2d8" stroke-opacity=".5"/>
+<path d="M36 2308V2450" stroke="#7de2d8" stroke-width="2" stroke-opacity=".5"/>
+<g transform="translate(594 2315) scale(0.65)" stroke="#7de2d8" stroke-linejoin="round">
+<path d="M0 0L18 -9L36 0L18 9Z" fill="#7de2d8" fill-opacity=".4"/>
+<path d="M0 0V20L18 29V9Z" fill="#7de2d8" fill-opacity=".18"/>
+<path d="M18 9L36 0V20L18 29Z" fill="#7de2d8" fill-opacity=".08"/>
+</g>
+<text x="58" y="2314" font-size="16" fill="#7de2d8" class="mono" letter-spacing=".4">11 / WEB / PHP / MYSQL</text>
+<text x="58" y="2360" font-size="29" fill="#f0f4fa" font-weight="700">SmartFarm</text>
+<text x="58" y="2398" font-size="24" fill="#a8bbd1" >A trading platform for the smart-farm</text>
+<text x="58" y="2427" font-size="24" fill="#a8bbd1" >domain.</text>
+</svg>
