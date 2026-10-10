@@ -1,9 +1,11 @@
 """Render self-contained GitHub profile SVGs and their accessible text version."""
 from pathlib import Path
 from html import escape
+from hashlib import sha256
 import textwrap
 
 ROOT = Path(__file__).resolve().parents[1]
+ASSETS = {}
 PROJECTS = [
     ('PLC AI Studio', 'AI-assisted PLC analysis & change review.', 'AI + RULES / IN DEVELOPMENT', None, '#bcb0ff'),
     ('Local LLM × LabVIEW', 'Natural-language tools for existing systems.', 'LOCAL AI / SYSTEM INTEGRATION', 'https://github.com/fortex66/local-llm-field-monitoring-agent', '#bcb0ff'),
@@ -50,7 +52,19 @@ def panel(w, h, title, desc):
             f'<rect x="1" y="1" width="{w-2}" height="{h-2}" rx="24" fill="url(#bg)" stroke="#283448"/>']
 
 def write(name, parts):
-    (ROOT/'assets'/name).write_text('\n'.join(parts+['</svg>'])+'\n')
+    content='\n'.join(parts+['</svg>'])+'\n'
+    # GitHub's raw images may remain cached after a merge. A content-derived
+    # filename gives every changed identity image a new, immutable URL.
+    filename=name
+    if name.startswith('architecture'):
+        digest=sha256(content.encode()).hexdigest()[:12]
+        filename=f'{Path(name).stem}-{digest}.svg'
+    ASSETS[name]=filename
+    (ROOT/'assets'/filename).write_text(content)
+
+def asset(stem):
+    name=stem+'.svg'
+    return './assets/'+ASSETS.get(name,name)
 
 def architecture(mobile=False, animated=True):
     """An exploded isometric structure, with career as its foundation."""
@@ -210,13 +224,13 @@ def contact_links():
 def picture(stem,alt,motion=False):
     reduced=''
     if motion:
-        reduced=f'''    <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/{stem}-mobile-static.svg" />
-    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/{stem}-static.svg" />
+        reduced=f'''    <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="{asset(stem+'-mobile-static')}" />
+    <source media="(prefers-reduced-motion: reduce)" srcset="{asset(stem+'-static')}" />
 '''
     return f'''<p align="center">
   <picture>
-{reduced}    <source media="(max-width: 600px)" srcset="./assets/{stem}-mobile.svg" />
-    <img src="./assets/{stem}.svg" width="100%" alt="{escape(alt,quote=True)}" />
+{reduced}    <source media="(max-width: 600px)" srcset="{asset(stem+'-mobile')}" />
+    <img src="{asset(stem)}" width="100%" alt="{escape(alt,quote=True)}" />
   </picture>
 </p>'''
 
@@ -246,3 +260,7 @@ if __name__=='__main__':
         architecture(mobile);architecture(mobile,animated=False);projects(mobile)
     contacts()
     readme()
+    # Keep only the four current identity variants after updating their links.
+    keep=set(ASSETS.values())
+    for path in (ROOT/'assets').glob('architecture*.svg'):
+        if path.name not in keep:path.unlink()
