@@ -11,8 +11,8 @@
   <picture>
     <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/architecture-mobile-static-268c4285ae1d.svg" />
     <source media="(prefers-reduced-motion: reduce)" srcset="./assets/architecture-static-c861cd4d4798.svg" />
-    <source media="(max-width: 600px)" srcset="./assets/architecture-mobile-d6188f8ce665.svg" />
-    <img src="./assets/architecture-ffcc2b6f7e0d.svg" width="100%" alt="Engineering identity: industrial control → connected software and structured data → AI-assisted human decisions. SL Corporation · Production Engineering Center / Automation Company · Software Developer. Major: Computer Science." />
+    <source media="(max-width: 600px)" srcset="./assets/architecture-mobile-774d914f69b7.svg" />
+    <img src="./assets/architecture-019cb7adb7ce.svg" width="100%" alt="Engineering identity: industrial control → connected software and structured data → AI-assisted human decisions. SL Corporation · Production Engineering Center / Automation Company · Software Developer. Major: Computer Science." />
   </picture>
 </p>
 

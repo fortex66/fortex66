@@ -12,12 +12,11 @@
 <style>
 .float-ai{animation:float 6s ease-in-out infinite}
 .float-it{animation:float 7s ease-in-out -2s infinite}
-.float-ot{animation:float 8s ease-in-out -4s infinite}
-.robot-arm{animation:reach 8s ease-in-out infinite}
+.robot-arm{animation:reach 6s ease-in-out infinite}
 .data-flow{stroke-dasharray:4 14;animation:flow 5s linear infinite}
 .live-node{animation:pulse 4s ease-in-out infinite}
 @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
-@keyframes reach{0%,100%{transform:rotate(0deg);transform-origin:28px 55px}50%{transform:rotate(-8deg);transform-origin:28px 55px}}
+@keyframes reach{0%,100%{transform:translateX(-7px)}50%{transform:translateX(7px)}}
 @keyframes flow{to{stroke-dashoffset:-72}}
 @keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}}
 @media(prefers-reduced-motion:reduce){.float-ai,.float-it,.float-ot,.robot-arm,.data-flow,.live-node{animation:none}}
