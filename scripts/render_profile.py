@@ -11,7 +11,7 @@ PROJECTS = [
     ('Vision & Robot Alignment', 'Vision, robotics, and production integration.', 'VISION / ROBOTICS / MES', None, '#e0b382'),
     ('G90 · GV90 Programs', 'Project participation & process engineering.', 'AUTOMOTIVE / MANUFACTURING', None, '#e0b382'),
     ('Industrial Embedded Controllers', 'Industrial HMI and embedded control software.', 'C++ / QT / LINUX', None, '#7de2d8'),
-    ('Water Treatment SCADA', 'Connected facilities and remote operation.', 'INDUSTRIAL MONITORING / CONTROL', 'https://fortex66.tistory.com/17', '#7de2d8'),
+    ('Water Treatment SCADA', 'Connected facilities and remote operation.', 'INDUSTRIAL MONITORING / CONTROL', 'https://github.com/fortex66/Water-Treatement-SCADA', '#7de2d8'),
     ('ForTex-Viewer', 'PLC-connected monitoring and visualization.', 'PLC / WEB / DATA', 'https://github.com/fortex66/ForTex-Viewer', '#7de2d8'),
     ('EV Battery Management', 'Sensor-based energy monitoring and control.', 'ENERGY / EMBEDDED SYSTEMS', 'https://github.com/fortex66/Lithium-Ion-Battery-Management-System', '#7de2d8'),
     ('JourneyMate', 'Travel information and real-time collaboration.', 'WEB / REAL-TIME SERVICES', 'https://github.com/fortex66/JourneyMate', '#7de2d8'),
@@ -52,21 +52,80 @@ def panel(w, h, title, desc):
 def write(name, parts):
     (ROOT/'assets'/name).write_text('\n'.join(parts+['</svg>'])+'\n')
 
-def career(mobile=False):
-    w,h = (700,640) if mobile else (1200,324)
-    s=panel(w,h,'Profile — career & focus','SL Corporation, Production Technology Center, SA Team. Production technology software and control engineer, July 2025 to present. Previously industrial software development, October 2020 to June 2023. Major: 컴퓨터학부.')
-    s += [text(40,48,'01 / PROFILE',16,'#9db1c9','class="mono" letter-spacing="2"'),text(40,95,'Grounded in the factory floor.',32,'#f0f4fa','font-weight="700"')]
+def architecture(mobile=False):
+    """An exploded isometric structure, with career as its foundation."""
+    w,h = (700,1080) if mobile else (1200,910)
+    s=panel(w,h,'Engineering identity — control, software, and AI',
+        'A conceptual map of my engineering identity: industrial control feeds connected software and structured data; AI supports interpretation and human decisions. Current: SL Corporation, 생산기술센터, July 2025 to present. Previous: 자동화 회사, 소프트웨어 개발자, October 2020 to June 2023. Major: 컴퓨터학부. Research interest: knowledge-guided manufacturing AI.')
+    s += [text(40,48,'01 / ENGINEERING IDENTITY',16,'#9db1c9','class="mono" letter-spacing="2"'),text(40,95,'Manufacturing software engineer.',31 if mobile else 36,'#f0f4fa','font-weight="700"')]
+    cx=200 if mobile else 330
+    half=140 if mobile else 210
+    depth=55 if mobile else 75
+    ys=[240,415,590] if mobile else [225,380,535]
+    colors=['#bcb0ff','#7de2d8','#e0b382']
+    # Vertical feedback spine connects layers rather than isolating capabilities.
+    spine=28 if mobile else 72
+    s.append(f'<path d="M{spine} {ys[2]}V{ys[0]}" fill="none" stroke="#7f99b1" stroke-width="2" stroke-dasharray="4 7"/>')
+    for cy in ys:s.append(f'<path d="M{spine} {cy}H{cx-half}" stroke="#52687f"/>')
+    s += [text(spine+7,ys[0]-18,'↑',26,'#7de2d8'),text(spine+7,ys[2]+35,'↓',26,'#7de2d8')]
+    for index in [2,1,0]:
+        cy,color=ys[index],colors[index]
+        # The bevel and rear face establish thickness, instead of stacked rectangles.
+        s.append(f'<ellipse cx="{cx+8}" cy="{cy+depth+24}" rx="{half-35}" ry="20" fill="#000" opacity=".4" filter="url(#shadow)"/>')
+        s.append(f'<path d="M{cx-half} {cy}L{cx} {cy+depth}L{cx+half} {cy}V{cy+22}L{cx} {cy+depth+22}L{cx-half} {cy+22}Z" fill="url(#edge)" stroke="#40576e"/>')
+        s.append(f'<path d="M{cx-half} {cy}L{cx} {cy-depth}L{cx+half} {cy}L{cx} {cy+depth}Z" fill="url(#surface)" stroke="{color}" stroke-opacity=".8"/>')
+        s.append(f'<path d="M{cx-half+8} {cy+10}L{cx} {cy+depth+9}L{cx+half-8} {cy+10}" fill="none" stroke="{color}" stroke-opacity=".65" stroke-width="2"/>')
+        # Grid etched into each slab is an engineering motif, not extra decoration.
+        for t in [-.5,0,.5]:
+            x1=cx-half/2+t*half/2;y1=cy-depth/2-t*depth/2
+            x2=cx+half/2+t*half/2;y2=cy+depth/2-t*depth/2
+            s.append(f'<path d="M{x1} {y1}L{x2} {y2}" stroke="{color}" stroke-opacity=".12"/>')
+        size=1 if mobile else 1.2
+        s.append(f'<g transform="translate({cx-36*size} {cy-38*size}) scale({size})" stroke-linejoin="round">')
+        if index==0:
+            s.append('''<path d="M0 12L36 -6L72 12L36 30Z" fill="#a69bff" fill-opacity=".35" stroke="#d0c5ff"/>
+<path d="M0 12V51L36 69V30Z" fill="#8b7dde" fill-opacity=".25" stroke="#a99cee"/>
+<path d="M36 30L72 12V51L36 69Z" fill="#574693" fill-opacity=".3" stroke="#a99cee"/>
+<path d="M17 28L36 17L56 29L52 49L36 58L20 47Z M17 28L52 49L36 17L20 47L56 29L36 58Z" fill="none" stroke="#e0d8ff" stroke-width="1.5"/>''')
+            for x,y in [(17,28),(36,17),(56,29),(52,49),(36,58),(20,47)]:s.append(f'<circle cx="{x}" cy="{y}" r="2.8" fill="#ece7ff"/>')
+        elif index==1:
+            s.append('''<path d="M1 12L30 -3L67 15L38 30Z" fill="#547d88" stroke="#9ad9dd"/>
+<path d="M1 12V61L38 79V30Z" fill="#213f4d" stroke="#6599a6"/>
+<path d="M38 30L67 15V64L38 79Z" fill="#142937" stroke="#6599a6"/>
+<path d="M9 29L30 39M9 43L30 53M9 57L30 67" stroke="#8dbecb" stroke-width="2"/>
+<path d="M51 38L82 22V60L51 76Z" fill="#132b38" stroke="#7de2d8"/>
+<path d="M56 65L61 53L66 56L74 40L78 43" fill="none" stroke="#7de2d8" stroke-width="2"/>''')
+        else:
+            s.append('''<path d="M7 65L35 51L64 65L35 79Z" fill="#c08f5c" stroke="#eacba4"/>
+<path d="M7 65V72L35 86V79Z" fill="#8a5f3b"/><path d="M35 79L64 65V72L35 86Z" fill="#543c2a"/>
+<path d="M32 59L18 29L44 4L67 20" fill="none" stroke="#67482e" stroke-width="17" stroke-linecap="round"/>
+<path d="M28 55L14 25L40 0L64 16" fill="none" stroke="#d4a36e" stroke-width="13" stroke-linecap="round"/>
+<path d="M65 17L75 23L77 34M75 23L86 19L89 29" fill="none" stroke="#b8c6d5" stroke-width="4" stroke-linecap="round"/>''')
+            for x,y in [(28,55),(14,25),(40,0)]:s.append(f'<circle cx="{x}" cy="{y}" r="7" fill="#e0b382" stroke="#f4d4ad"/><circle cx="{x}" cy="{y}" r="3" fill="#725139"/>')
+        s.append('</g>')
+        s.append(text(cx,cy+depth+17,['AI','IT','OT'][index],13,color,'class="mono" text-anchor="middle" letter-spacing="4"'))
+        lx=380 if mobile else 640
+        end=lx-16
+        s.append(f'<path d="M{cx+half} {cy}H{end}" fill="none" stroke="{color}" stroke-opacity=".5"/>')
+        s.append(f'<circle cx="{end}" cy="{cy}" r="3" fill="{color}"/>')
+        title=['INTERPRET & ASSIST','CONNECT & STRUCTURE','OBSERVE & CONTROL'][index]
+        s += [text(lx,cy-46,['03 / INTELLIGENCE','02 / SOFTWARE','01 / CONTROL'][index],14 if mobile else 16,color,'class="mono" letter-spacing=".6"'),text(lx,cy-9,title,21 if mobile else 28,'#f0f4fa','font-weight="700"')]
+        tools=([['Local LLM · Tool calling','Rules · Human review'],['Python · C++ / Qt','React · Node.js · SQL'],['PLC · LabVIEW · Robotics','Vision · Process engineering']][index])
+        if mobile:
+            tools=[['Local LLM · Tool calling','Rules · Human review'],['Python · C++ / Qt','React · Node.js · SQL'],['PLC · LabVIEW','Robotics · Vision']][index]
+        for j,line in enumerate(tools):s.append(text(lx,cy+28+j*31,line,20 if mobile else 25,'#9db1c9'))
+    ry=725 if mobile else 668
+    s += [text(40,ry,'RESEARCH / KNOWLEDGE-GUIDED MANUFACTURING AI',16,'#bcb0ff','class="mono"'),text(40,ry+36,'Process knowledge + data + engineering constraints',22 if mobile else 28,'#d5e1ef','font-weight="600"')]
+    fy=810 if mobile else 755
+    s += [f'<path d="M40 {fy}H{w-40}" stroke="#2d4256"/>',text(40,fy+31,'EXPERIENCE / THE FOUNDATION',14,'#9db1c9','class="mono" letter-spacing="1.2"')]
+    x2=370 if mobile else 660
+    s += [text(40,fy+73,'SL Corporation',28 if mobile else 30,'#f0f4fa','font-weight="700"'),text(40,fy+108,'생산기술센터',26,'#7de2d8'),text(40,fy+139,'2025.07 — PRESENT',16,'#9db1c9','class="mono"'),text(x2,fy+73,'자동화 회사',28 if mobile else 30,'#f0f4fa','font-weight="700"'),text(x2,fy+108,'소프트웨어 개발자',26,'#e0b382'),text(x2,fy+139,'2020.10 — 2023.06',16,'#9db1c9','class="mono"')]
     if mobile:
-        layouts=[(32,124,624,150),(32,302,624,130),(32,460,624,120)]
+        s.append(text(40,1030,'전공 · 컴퓨터학부',24,'#bcb0ff'))
     else:
-        layouts=[(32,125,536,156),(594,125,300,156),(920,125,240,156)]
-    x,y,cw,ch=layouts[0]
-    s += [card(x,y,cw,ch,'#7de2d8'),cube(x+cw-66,y+33,'#7de2d8',.7),text(x+24,y+30,'CURRENT / 2025.07 — PRESENT',14 if not mobile else 19,'#7de2d8','class="mono"'),text(x+24,y+68,'SL Corporation',30,'#f0f4fa','font-weight="700"'),text(x+24,y+99,'Production Technology Center · SA Team',20 if not mobile else 24),text(x+24,y+130,'Production technology SW & control engineer',19 if not mobile else 23,'#9db1c9')]
-    x,y,cw,ch=layouts[1]
-    s += [card(x,y,cw,ch,'#e0b382'),text(x+24,y+30,'PREVIOUS / 2020–2023',14 if not mobile else 19,'#e0b382','class="mono"'),text(x+24,y+67,'Industrial software',23 if not mobile else 28,'#f0f4fa','font-weight="700"'),text(x+24,y+101,'Controllers · HMI · SCADA',19 if not mobile else 24,'#9db1c9')]
-    x,y,cw,ch=layouts[2]
-    s += [card(x,y,cw,ch,'#bcb0ff'),text(x+24,y+30,'MAJOR',14 if not mobile else 19,'#bcb0ff','class="mono"'),text(x+24,y+74,'컴퓨터학부',29 if not mobile else 32,'#f0f4fa','font-weight="700"')]
-    write('profile-mobile.svg' if mobile else 'profile.svg',s)
+        # Major remains a small personal detail beside the architecture, without a school.
+        s.append(text(1148,fy+31,'전공 · 컴퓨터학부',19,'#bcb0ff','text-anchor="end"'))
+    write('architecture-mobile.svg' if mobile else 'architecture.svg',s)
 
 def projects(mobile=False):
     w=700 if mobile else 1200
@@ -77,7 +136,7 @@ def projects(mobile=False):
     h=128+rows*step+28
     desc='; '.join(p[0]+': '+p[1] for p in PROJECTS)
     s=panel(w,h,'Project collection — eleven projects',desc)
-    s += [text(40,48,'02 / PROJECT COLLECTION',16,'#9db1c9','class="mono" letter-spacing="2"'),text(40,95,'Systems, from field to software.',32,'#f0f4fa','font-weight="700"')]
+    s += [text(40,48,'02 / PROJECT ARCHIVE',16,'#9db1c9','class="mono" letter-spacing="2"'),text(40,95,'Systems, from field to software.',32,'#f0f4fa','font-weight="700"')]
     for i,(name,summary,tag,url,color) in enumerate(PROJECTS):
         x=32 if mobile else 32+(i%2)*580
         y=124+(i//columns)*step
@@ -94,21 +153,6 @@ def projects(mobile=False):
         s += [card(x,y,554,ch,'#7de2d8'),text(x+26,y+36,'ONE CONNECTED THREAD',13,'#7de2d8','class="mono" letter-spacing="1"'),text(x+26,y+83,'Equipment → Data → Decisions',25,'#f0f4fa','font-weight="700"'),text(x+26,y+122,'Built around engineering judgment.',20,'#a8bbd1')]
     write('projects-mobile.svg' if mobile else 'projects.svg',s)
 
-def stack(mobile=False):
-    w,h=(700,848) if mobile else (1200,412)
-    s=panel(w,h,'Core stack & research direction','Control: PLC, LabVIEW, robotics, vision. Software: Python, C++, Qt, React, Node.js, SQL. AI integration: local LLMs, tool calling, rule-based validation. Research interest: knowledge-guided manufacturing AI, combining process data with engineering constraints.')
-    s += [text(40,48,'03 / CAPABILITIES',16,'#9db1c9','class="mono" letter-spacing="2"'),text(40,95,'Three layers. One engineering mindset.',30 if mobile else 32,'#f0f4fa','font-weight="700"')]
-    data=[('CONTROL / OT',['PLC · LabVIEW','Robotics · Vision'],'#e0b382'),('SOFTWARE / IT',['Python · C++ / Qt','React · Node.js · SQL'],'#7de2d8'),('AI INTEGRATION',['Local LLM · Tool calling','Rule-based validation'],'#bcb0ff')]
-    for i,(title,lines,color) in enumerate(data):
-        x=32 if mobile else 32+i*386
-        y=124+i*170 if mobile else 124
-        cw=624 if mobile else 362
-        s += [card(x,y,cw,140,color),cube(x+cw-64,y+33,color,.7),text(x+26,y+32,title,20 if mobile else 16,color,'class="mono"')]
-        for j,line in enumerate(lines):s.append(text(x+26,y+78+j*32,line,28 if mobile else 24,'#d5e1ef'))
-    y=666 if mobile else 318
-    s += [text(40,y,'RESEARCH INTEREST / KNOWLEDGE-GUIDED MANUFACTURING AI',16 if mobile else 17,'#bcb0ff','class="mono"'),text(40,y+38,'Process data + engineering constraints',25,'#f0f4fa','font-weight="600"'),text(40,y+70,'for human-centered decision support.',23,'#9db1c9')]
-    write('stack-mobile.svg' if mobile else 'stack.svg',s)
-
 def picture(stem,alt):
     return f'''<p align="center">
   <picture>
@@ -120,23 +164,23 @@ def picture(stem,alt):
 def readme():
     original=(ROOT/'README.md').read_text()
     header=original[:original.index('</p>')+4]
-    body=[header,'',picture('profile','Current: SL Corporation, Production Technology Center, SA Team — production technology SW & control engineer, Jul. 2025–Present. Previously industrial software development, Oct. 2020–Jun. 2023. Major: 컴퓨터학부.'),'',picture('projects','Eleven projects: '+', '.join(p[0] for p in PROJECTS)+'. Each project is summarized in a raised card.'),'',picture('stack','Core stack: control, industrial software, and AI integration. Research interest: knowledge-guided manufacturing AI.'),'', '''<p align="center">
+    body=[header,'',picture('architecture','Engineering identity: industrial control → connected software and structured data → AI-assisted human decisions. SL Corporation · 생산기술센터 / 자동화 회사 · 소프트웨어 개발자. 전공: 컴퓨터학부.'),'', '''<p align="center">
   <a href="https://fortex66.github.io/">Portfolio</a> ·
   <a href="https://fortex66.tistory.com/">Tech blog</a> ·
   <a href="mailto:fortex66@naver.com">Email</a>
-</p>
-
-<details>
+</p>''','',picture('projects','Project archive: '+', '.join(p[0] for p in PROJECTS)+'.'),'', '''<details>
 <summary>Text version & project links</summary>
 
-**Current:** SL Corporation · Production Technology Center, SA Team — Production technology SW & control engineer (Jul. 2025–Present).<br/>
-**Previously:** Industrial software development (Oct. 2020–Jun. 2023).<br/>
+**Identity:** Manufacturing software engineer — connecting industrial control, structured data, and AI-assisted decisions.<br/>
+**Current:** SL Corporation · 생산기술센터 (Jul. 2025–Present).<br/>
+**Previously:** 자동화 회사 · 소프트웨어 개발자 (Oct. 2020–Jun. 2023).<br/>
 **Major:** 컴퓨터학부.
 ''']
     for i,(name,summary,tag,url,color) in enumerate(PROJECTS):
         label=f'[{name}]({url})' if url else name
         if i==0:summary+=' In development; private repository.'
         if name=='G90 · GV90 Programs':summary='G90 · GV90 프로젝트 참여 — process engineering.'
+        if name=='Water Treatment SCADA':summary+=' Joint project with [seonghyeon0312](https://github.com/seonghyeon0312).'
         if name=='Manufacturing Process Optimization':summary='제조 공정 최적화 기술 — feedback-driven process improvement.'
         body.append(f'- **{label}** — {summary}')
     body += ['', '**Core stack:** PLC · LabVIEW · Robotics · Vision / Python · C++ / Qt · React · Node.js · SQL / Local LLM · Tool calling · Rule-based validation.', '', '**Research interest:** Knowledge-guided manufacturing AI — process data and engineering constraints for human-centered decision support.', '', '</details>', '']
@@ -144,5 +188,5 @@ def readme():
 
 if __name__=='__main__':
     for mobile in [False,True]:
-        career(mobile);projects(mobile);stack(mobile)
+        architecture(mobile);projects(mobile)
     readme()

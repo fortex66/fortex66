@@ -9,22 +9,8 @@
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="./assets/profile-mobile.svg" />
-    <img src="./assets/profile.svg" width="100%" alt="Current: SL Corporation, Production Technology Center, SA Team — production technology SW &amp; control engineer, Jul. 2025–Present. Previously industrial software development, Oct. 2020–Jun. 2023. Major: 컴퓨터학부." />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(max-width: 600px)" srcset="./assets/projects-mobile.svg" />
-    <img src="./assets/projects.svg" width="100%" alt="Eleven projects: PLC AI Studio, Local LLM × LabVIEW, Manufacturing Process Optimization, Vision &amp; Robot Alignment, G90 · GV90 Programs, Industrial Embedded Controllers, Water Treatment SCADA, ForTex-Viewer, EV Battery Management, JourneyMate, SmartFarm. Each project is summarized in a raised card." />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(max-width: 600px)" srcset="./assets/stack-mobile.svg" />
-    <img src="./assets/stack.svg" width="100%" alt="Core stack: control, industrial software, and AI integration. Research interest: knowledge-guided manufacturing AI." />
+    <source media="(max-width: 600px)" srcset="./assets/architecture-mobile.svg" />
+    <img src="./assets/architecture.svg" width="100%" alt="Engineering identity: industrial control → connected software and structured data → AI-assisted human decisions. SL Corporation · 생산기술센터 / 자동화 회사 · 소프트웨어 개발자. 전공: 컴퓨터학부." />
   </picture>
 </p>
 
@@ -34,11 +20,19 @@
   <a href="mailto:fortex66@naver.com">Email</a>
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/projects-mobile.svg" />
+    <img src="./assets/projects.svg" width="100%" alt="Project archive: PLC AI Studio, Local LLM × LabVIEW, Manufacturing Process Optimization, Vision &amp; Robot Alignment, G90 · GV90 Programs, Industrial Embedded Controllers, Water Treatment SCADA, ForTex-Viewer, EV Battery Management, JourneyMate, SmartFarm." />
+  </picture>
+</p>
+
 <details>
 <summary>Text version & project links</summary>
 
-**Current:** SL Corporation · Production Technology Center, SA Team — Production technology SW & control engineer (Jul. 2025–Present).<br/>
-**Previously:** Industrial software development (Oct. 2020–Jun. 2023).<br/>
+**Identity:** Manufacturing software engineer — connecting industrial control, structured data, and AI-assisted decisions.<br/>
+**Current:** SL Corporation · 생산기술센터 (Jul. 2025–Present).<br/>
+**Previously:** 자동화 회사 · 소프트웨어 개발자 (Oct. 2020–Jun. 2023).<br/>
 **Major:** 컴퓨터학부.
 
 - **PLC AI Studio** — AI-assisted PLC analysis & change review. In development; private repository.
@@ -47,7 +41,7 @@
 - **Vision & Robot Alignment** — Vision, robotics, and production integration.
 - **G90 · GV90 Programs** — G90 · GV90 프로젝트 참여 — process engineering.
 - **Industrial Embedded Controllers** — Industrial HMI and embedded control software.
-- **[Water Treatment SCADA](https://fortex66.tistory.com/17)** — Connected facilities and remote operation.
+- **[Water Treatment SCADA](https://github.com/fortex66/Water-Treatement-SCADA)** — Connected facilities and remote operation. Joint project with [seonghyeon0312](https://github.com/seonghyeon0312).
 - **[ForTex-Viewer](https://github.com/fortex66/ForTex-Viewer)** — PLC-connected monitoring and visualization.
 - **[EV Battery Management](https://github.com/fortex66/Lithium-Ion-Battery-Management-System)** — Sensor-based energy monitoring and control.
 - **[JourneyMate](https://github.com/fortex66/JourneyMate)** — Travel information and real-time collaboration.

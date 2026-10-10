@@ -9,7 +9,7 @@
 <style>text{font-family:Arial,Helvetica,sans-serif}.mono{font-family:'Courier New',monospace}</style>
 </defs>
 <rect x="1" y="1" width="698" height="2530" rx="24" fill="url(#bg)" stroke="#283448"/>
-<text x="40" y="48" font-size="16" fill="#9db1c9" class="mono" letter-spacing="2">02 / PROJECT COLLECTION</text>
+<text x="40" y="48" font-size="16" fill="#9db1c9" class="mono" letter-spacing="2">02 / PROJECT ARCHIVE</text>
 <text x="40" y="95" font-size="32" fill="#f0f4fa" font-weight="700">Systems, from field to software.</text>
 <rect x="42" y="144" width="616" height="190" rx="16" fill="#000" opacity=".42" filter="url(#shadow)"/>
 <rect x="39" y="136" width="624" height="190" rx="16" fill="url(#edge)" stroke="#26394f"/>
