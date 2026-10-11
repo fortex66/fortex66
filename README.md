@@ -1,23 +1,32 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/identity-mobile-static.svg" />
-    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/identity-static.svg" />
-    <source media="(max-width: 600px)" srcset="./assets/identity-mobile.svg" />
-    <img src="./assets/identity.svg" width="100%" alt="Eonsang Son — OT × IT × AI. An isometric robot, data server, and AI core connect industrial equipment to manufacturing intelligence." />
-  </picture>
-</p>
+# 안녕하세요, 손언상입니다.
 
-<p align="center">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/architecture-mobile-static-268c4285ae1d.svg" />
-    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/architecture-static-c861cd4d4798.svg" />
-    <source media="(max-width: 600px)" srcset="./assets/architecture-mobile-774d914f69b7.svg" />
-    <img src="./assets/architecture-019cb7adb7ce.svg" width="100%" alt="Engineering identity: industrial control → connected software and structured data → AI-assisted human decisions. SL Corporation · Production Engineering Center / Automation Company · Software Developer. Major: Computer Science." />
-  </picture>
-</p>
+설비를 움직이는 제어부터 현장에서 쓰는 소프트웨어까지 만들어 왔습니다.<br/>
+요즘은 그 경험을 바탕으로, 제조 현장에 AI를 어떻게 쓸 수 있을지 고민하며 개발하고 있습니다.
 
-<p align="center">
-  <a href="https://fortex66.github.io/"><img src="./assets/contact-portfolio.svg" width="270" alt="Portfolio — fortex66.github.io" /></a>
-  <a href="https://fortex66.tistory.com/"><img src="./assets/contact-blog.svg" width="270" alt="Tech Blog — fortex66.tistory.com" /></a>
-  <a href="mailto:fortex66@naver.com"><img src="./assets/contact-email.svg" width="270" alt="Email — fortex66@naver.com" /></a>
-</p>
+### 제가 만든 것들이 궁금하다면
+
+프로젝트와 경력은 작은 3D 공간에 모아 두었습니다. 직접 돌아다니며 살펴보세요.
+
+## [포트폴리오 둘러보기 ↗](https://fortex66.github.io/)
+
+<a href="https://fortex66.github.io/">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/portfolio-preview.png" />
+    <img src="./assets/portfolio-preview.gif" width="100%" alt="손언상의 3D 포트폴리오. 산업용 로봇, 서버와 AI 워크스테이션이 있는 공간입니다. 클릭하면 포트폴리오 사이트로 이동합니다." />
+  </picture>
+</a>
+
+*위 화면을 누르면 포트폴리오로 이동합니다. 이동과 탐험은 사이트에서 할 수 있어요.*
+
+---
+
+**SL Corporation · Production Engineering Center**<br/>
+Jul. 2025 – Present
+
+**Automation Company · Software Developer**<br/>
+Oct. 2020 – Jun. 2023
+
+**Bachelor’s Degree · Computer Science**<br/>
+Mar. 2018 – Feb. 2025
+
+[개발하며 남긴 글](https://fortex66.tistory.com/) · [이메일](mailto:fortex66@naver.com)
