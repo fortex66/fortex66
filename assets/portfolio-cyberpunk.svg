@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="204" viewBox="0 0 760 204" role="img" aria-labelledby="title desc">
+  <title id="title">Explore my work — The Factory Road</title>
+  <desc id="desc">Smart Factory, Robotics and AI. Floating neon panels, a scanning light and a luminous core invite you to explore my portfolio.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1"><stop stop-color="#100e23"/><stop offset="1" stop-color="#060911"/></linearGradient>
+    <radialGradient id="ambient"><stop stop-color="#d224ff" stop-opacity=".18"/><stop offset="1" stop-color="#d224ff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="base" x2=".8" y2="1"><stop stop-color="#20305b"/><stop offset="1" stop-color="#111833"/></linearGradient>
+    <linearGradient id="side"><stop stop-color="#111527"/><stop offset=".5" stop-color="#1c2c51"/><stop offset=".5" stop-color="#090d22"/><stop offset="1" stop-color="#1c1c3b"/></linearGradient>
+    <linearGradient id="panel" x2=".8" y2="1"><stop stop-color="#634ca8"/><stop offset="1" stop-color="#291b55"/></linearGradient>
+    <linearGradient id="upper" x2=".7" y2="1"><stop stop-color="#ac64e8"/><stop offset="1" stop-color="#422b8d"/></linearGradient>
+    <linearGradient id="upper-side"><stop stop-color="#6535a4"/><stop offset=".5" stop-color="#844cd1"/><stop offset=".5" stop-color="#331e66"/><stop offset="1" stop-color="#553092"/></linearGradient>
+    <linearGradient id="cube-left" x2="0" y2="1"><stop stop-color="#bcffff"/><stop offset="1" stop-color="#25b6d9"/></linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.2"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="scan-fade" x2="0" y2="1"><stop stop-color="#31eafa" stop-opacity="0"/><stop offset="1" stop-color="#31eafa" stop-opacity=".1"/></linearGradient>
+    <clipPath id="scan-clip"><path d="M28 89L108 49L188 89L188 155L108 195L28 155Z"/></clipPath>
+  </defs>
+  <style>text{font-family:Arial,Helvetica,sans-serif}
+    .upper{animation:levitate 5s ease-in-out infinite}
+    .middle{animation:levitate-middle 5s ease-in-out infinite}
+    .core{animation:core 5s ease-in-out infinite}
+    .shadow{transform-origin:110px 181px;animation:shadow 5s ease-in-out infinite}
+    .stream{stroke-dasharray:15 145;animation:flow 4s linear infinite}
+    .stream-two{animation-delay:-2s}
+    @keyframes levitate{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+    @keyframes levitate-middle{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+    @keyframes core{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+    @keyframes shadow{0%,100%{opacity:.65;transform:scaleX(1)}50%{opacity:.4;transform:scaleX(.9)}}
+    @keyframes flow{to{stroke-dashoffset:-160}}
+    @media(prefers-reduced-motion:reduce){.upper,.middle,.core,.shadow,.stream{animation:none}}
+.core,.stream{filter:url(#glow)}
+    .scanner{animation:scan 5s ease-in-out infinite}
+    @keyframes scan{0%,100%{transform:translateY(-20px);opacity:0}20%{opacity:.6}70%{opacity:.45}90%{transform:translateY(48px);opacity:0}}
+    @media(prefers-reduced-motion:reduce){.scanner{animation:none;opacity:0}}
+</style>
+  <rect x=".5" y=".5" width="759" height="203" rx="12" fill="url(#background)" stroke="#393057"/>
+  <g transform="translate(521 1) scale(.96)"><ellipse cx="110" cy="101" rx="104" ry="94" fill="url(#ambient)"/>
+<ellipse class="shadow" cx="110" cy="181" rx="89" ry="15" fill="#030812" opacity=".65"/>
+<g class="foundation">
+  <path d="M16 139L108 185L200 139V151L108 197L16 151Z" fill="url(#side)"/>
+  <path d="M16 139L108 93L200 139L108 185Z" fill="url(#base)" stroke="#3b5983" stroke-width="1"/>
+  <path d="M108 185V197M17 143L108 188L199 143" fill="none" stroke="#2ca8bd" stroke-opacity=".45"/>
+  <path d="M34 139L108 102L182 139L108 176Z" fill="#101d35" stroke="#31516c" stroke-opacity=".4"/>
+  <path d="M45 144L108 175L171 144" fill="none" stroke="#22dce1" stroke-width="2"/>
+  <path class="stream" d="M45 144L108 175L171 144" fill="none" stroke="#dbffff" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+<g class="middle">
+  <path d="M38 104L108 139L178 104V116L108 151L38 116Z" fill="url(#side)"/>
+  <path d="M38 104L108 69L178 104L108 139Z" fill="url(#panel)" stroke="#d26fff" stroke-width="1"/>
+  <path d="M108 139V151M40 108L108 142L176 108" fill="none" stroke="#ef8dff" stroke-opacity=".55"/>
+  <path d="M63 107L86 118L143 89M86 118L86 96L110 84" fill="none" stroke="#ad8ada" stroke-opacity=".3" stroke-width="2" stroke-linejoin="round"/>
+  <path class="stream stream-two" d="M63 107L86 118L143 89" fill="none" stroke="#fcceff" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M57 106L63 103L69 106L63 109Z M137 89L143 86L149 89L143 92Z" fill="#f4aeff"/>
+  <path d="M119 117L139 107L149 112L129 122Z" fill="#211332"/>
+  <path d="M124 117L139 109L143 111L128 119Z" fill="#fa58d8"/>
+</g>
+<g class="upper">
+  <path d="M56 68L108 94L160 68V78L108 104L56 78Z" fill="url(#upper-side)"/>
+  <path d="M56 68L108 42L160 68L108 94Z" fill="url(#upper)" stroke="#f098ff" stroke-width="1"/>
+  <path d="M108 94V104M58 72L108 97L158 72" fill="none" stroke="#ffb3f1" stroke-opacity=".65"/>
+  <path d="M76 68L108 52L140 68L108 84Z" fill="#672c99" stroke="#f496ff" stroke-opacity=".5"/>
+  <path d="M89 68L108 59L127 68L108 78Z" fill="#e891ff" opacity=".35"/>
+  <g class="core">
+    <path d="M92 39L108 47V66L92 58Z" fill="url(#cube-left)"/>
+    <path d="M108 47L124 39V58L108 66Z" fill="#0075b2"/>
+    <path d="M92 39L108 31L124 39L108 47Z" fill="#e9ffff"/>
+    <path d="M94 40L108 47L122 40M108 47V64" fill="none" stroke="#b8ffff" stroke-width="1" stroke-opacity=".65"/>
+  </g>
+</g>
+<g clip-path="url(#scan-clip)"><g class="scanner"><path d="M30 83L108 122L186 83V105L108 144L30 105Z" fill="url(#scan-fade)"/><path d="M30 105L108 144L186 105" fill="none" stroke="#57f4ff" stroke-width="1.1" filter="url(#glow)"/></g></g>
+</g>
+  <text x="32" y="43" fill="#a9a2c5" font-size="12" letter-spacing="2">THE FACTORY ROAD</text>
+  <text x="32" y="94" fill="#f5f1ff" font-size="32" font-weight="600">Explore my work</text>
+  <text x="32" y="128" fill="#bcb6d3" font-size="17">Smart Factory · Robotics · AI</text>
+  <rect x="32" y="151" width="174" height="36" rx="6" fill="#0c2330" stroke="#36c9dc" stroke-opacity=".65"/>
+  <text x="119" y="174" fill="#b2f4fb" font-size="14" font-weight="600" text-anchor="middle">View 3D Portfolio</text>
+</svg>
