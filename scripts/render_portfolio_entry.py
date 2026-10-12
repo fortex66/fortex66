@@ -1,0 +1,86 @@
+"""Generate the original animated isometric README cards (no raster assets).
+Run: python scripts/render_portfolio_entry.py
+"""
+from pathlib import Path
+
+assets = Path(__file__).resolve().parents[1] / 'assets'
+# Solid top and side faces provide depth; each assembly moves as one volume.
+art = '''
+<ellipse class="shadow" cx="110" cy="181" rx="89" ry="15" fill="#030812" opacity=".65"/>
+<g class="foundation">
+  <path d="M16 139L108 185L200 139V151L108 197L16 151Z" fill="url(#side)"/>
+  <path d="M16 139L108 93L200 139L108 185Z" fill="url(#base)" stroke="#365576" stroke-width="1"/>
+  <path d="M108 185V197M17 143L108 188L199 143" fill="none" stroke="#5b86be" stroke-opacity=".45"/>
+  <path d="M34 139L108 102L182 139L108 176Z" fill="#152a46" stroke="#46698f" stroke-opacity=".4"/>
+  <path d="M45 144L108 175L171 144" fill="none" stroke="#578eff" stroke-width="2"/>
+  <path class="stream" d="M45 144L108 175L171 144" fill="none" stroke="#c6e5ff" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+<g class="middle">
+  <path d="M38 104L108 139L178 104V116L108 151L38 116Z" fill="url(#side)"/>
+  <path d="M38 104L108 69L178 104L108 139Z" fill="url(#panel)" stroke="#669bdf" stroke-width="1"/>
+  <path d="M108 139V151M40 108L108 142L176 108" fill="none" stroke="#75b4f4" stroke-opacity=".55"/>
+  <path d="M63 107L86 118L143 89M86 118L86 96L110 84" fill="none" stroke="#c2d9f2" stroke-opacity=".3" stroke-width="2" stroke-linejoin="round"/>
+  <path class="stream stream-two" d="M63 107L86 118L143 89" fill="none" stroke="#cbf2ff" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M57 106L63 103L69 106L63 109Z M137 89L143 86L149 89L143 92Z" fill="#a8d7ff"/>
+  <path d="M119 117L139 107L149 112L129 122Z" fill="#142640"/>
+  <path d="M124 117L139 109L143 111L128 119Z" fill="#66b8ff"/>
+</g>
+<g class="upper">
+  <path d="M56 68L108 94L160 68V78L108 104L56 78Z" fill="url(#upper-side)"/>
+  <path d="M56 68L108 42L160 68L108 94Z" fill="url(#upper)" stroke="#9bc6ff" stroke-width="1"/>
+  <path d="M108 94V104M58 72L108 97L158 72" fill="none" stroke="#c3dbff" stroke-opacity=".65"/>
+  <path d="M76 68L108 52L140 68L108 84Z" fill="#355baf" stroke="#b1d8ff" stroke-opacity=".5"/>
+  <path d="M89 68L108 59L127 68L108 78Z" fill="#9ccfff" opacity=".35"/>
+  <g class="core">
+    <path d="M92 39L108 47V66L92 58Z" fill="url(#cube-left)"/>
+    <path d="M108 47L124 39V58L108 66Z" fill="#365cc7"/>
+    <path d="M92 39L108 31L124 39L108 47Z" fill="#d6edff"/>
+    <path d="M94 40L108 47L122 40M108 47V64" fill="none" stroke="#d3ecff" stroke-width="1" stroke-opacity=".65"/>
+  </g>
+</g>
+'''
+for mobile in (False, True):
+    width, height = (420, 212) if mobile else (760, 204)
+    x, headline, subtitle = (24, 29, 16) if mobile else (32, 32, 17)
+    transform = 'translate(294 101) scale(.5)' if mobile else 'translate(521 1) scale(.96)'
+    for still in (False, True):
+        suffix = ('-mobile' if mobile else '') + ('-still' if still else '')
+        motion = '' if still else '''
+    .upper{animation:levitate 5s ease-in-out infinite}
+    .middle{animation:levitate-middle 5s ease-in-out infinite}
+    .core{animation:core 5s ease-in-out infinite}
+    .shadow{transform-origin:110px 181px;animation:shadow 5s ease-in-out infinite}
+    .stream{stroke-dasharray:15 145;animation:flow 4s linear infinite}
+    .stream-two{animation-delay:-2s}
+    @keyframes levitate{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+    @keyframes levitate-middle{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+    @keyframes core{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+    @keyframes shadow{0%,100%{opacity:.65;transform:scaleX(1)}50%{opacity:.4;transform:scaleX(.9)}}
+    @keyframes flow{to{stroke-dashoffset:-160}}
+    @media(prefers-reduced-motion:reduce){.upper,.middle,.core,.shadow,.stream{animation:none}}
+'''
+        svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">
+  <title id="title">Explore my work — The Factory Road</title>
+  <desc id="desc">Smart Factory, Robotics and AI. Floating isometric panels and a luminous core invite you to explore my portfolio.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1"><stop stop-color="#131e2d"/><stop offset="1" stop-color="#090e17"/></linearGradient>
+    <radialGradient id="ambient"><stop stop-color="#365bb9" stop-opacity=".18"/><stop offset="1" stop-color="#365bb9" stop-opacity="0"/></radialGradient>
+    <linearGradient id="base" x2=".8" y2="1"><stop stop-color="#314d72"/><stop offset="1" stop-color="#182c47"/></linearGradient>
+    <linearGradient id="side"><stop stop-color="#172840"/><stop offset=".5" stop-color="#263f67"/><stop offset=".5" stop-color="#112038"/><stop offset="1" stop-color="#1b3154"/></linearGradient>
+    <linearGradient id="panel" x2=".8" y2="1"><stop stop-color="#5683cc"/><stop offset="1" stop-color="#263e70"/></linearGradient>
+    <linearGradient id="upper" x2=".7" y2="1"><stop stop-color="#8ebaff"/><stop offset="1" stop-color="#4167c5"/></linearGradient>
+    <linearGradient id="upper-side"><stop stop-color="#4265aa"/><stop offset=".5" stop-color="#496fb9"/><stop offset=".5" stop-color="#233f86"/><stop offset="1" stop-color="#355eac"/></linearGradient>
+    <linearGradient id="cube-left" x2="0" y2="1"><stop stop-color="#95d6ff"/><stop offset="1" stop-color="#5b91ed"/></linearGradient>
+  </defs>
+  <style>text{{font-family:Arial,Helvetica,sans-serif}}{motion}</style>
+  <rect x=".5" y=".5" width="{width-1}" height="{height-1}" rx="12" fill="url(#background)" stroke="#2c3b4f"/>
+  <g transform="{transform}"><ellipse cx="110" cy="101" rx="104" ry="94" fill="url(#ambient)"/>{art}</g>
+  <text x="{x}" y="43" fill="#9aaec5" font-size="12" letter-spacing="2">THE FACTORY ROAD</text>
+  <text x="{x}" y="94" fill="#f2f6fc" font-size="{headline}" font-weight="600">Explore my work <tspan fill="#9dc5ff">→</tspan></text>
+  <text x="{x}" y="128" fill="#b1bdcd" font-size="{subtitle}">Smart Factory · Robotics · AI</text>
+  <text x="{x}" y="174" fill="#83a9dc" font-size="13">fortex66.github.io</text>
+</svg>
+'''
+        path = assets / f'portfolio-isometric{suffix}.svg'
+        path.write_text(svg)
+        print(f'{path.name}: {path.stat().st_size:,} bytes')
